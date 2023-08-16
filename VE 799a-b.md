@@ -10,7 +10,7 @@
 | [[B9-11]] rev.II:15-16 | [[Manuscript B]]   | <sup>d</sup>EN.ZI / *su*<sub>2</sub>-*i-nu*         |
 | [[AK]] rev.IV:16'-17'  | [[Manuscript D₅]]  | ⸢<sup>d</sup>EN⸣.[ZI] / *su*<sub>2</sub>-*i-n*[*u*] |
 | [[AV]] obv.I':1'       | [[Manuscript C]]   | <sup>d</sup>E[N.ZI] / not glossed        |
-| [[AT]] rev.II':9-10    | [[Manuscript C]]   | <sup>d</sup>E[N.ZI] / *su*<sub>2</sub>-⸢*i*⸣-[*nu*] |
+| [[AT]] rev.II':9-10    | [[Manuscript C]]   | <sup>d</sup>EN.ZU / *su*<sub>2</sub>-⸢*i*⸣-[*nu*] |
 
 ¶ /suyīn(u)/, name of the Mesopotamian moon-god Sîn/Suyin. Conti, 'Sillabario' (1990), 191-192; Alkhafaki and Marchesi (2020,1 n1).
 
