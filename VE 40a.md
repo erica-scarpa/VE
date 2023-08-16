@@ -6,9 +6,9 @@
 
 |                Source(s)                 |   Manuscript(s)    |             Gloss             |
 | ---------------------------------------- | ------------------ | ----------------------------- |
-| ★                                        |                    | nig₂-eš₂-nu-eš₂               |
-| [[MEE 4, 2 = TM.75.G.4526]] obv.II:3     | [[Manuscript A-1]] | nig₂-eš₂-nu-eš₂ / *su-mu-tum* |
-| [[MEE 4, 8 = TM.75.G.2007]] obv.I':2'-3' | [[Manuscript B]]   | nig₂-eš₂-nu-eš₂ / *su-mu-tum* |
+| ★                                        |                    | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub>               |
+| [[MEE 4, 2 = TM.75.G.4526]] obv.II:3     | [[Manuscript A-1]] | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> / *su-mu-tum* |
+| [[MEE 4, 8 = TM.75.G.2007]] obv.I':2'-3' | [[Manuscript B]]   | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> / *su-mu-tum* |
 
 
 ¶ /šummuttum/, ‘tethering rope’. Krebernik, 'Mesopotamian Myths' (1992), 136, suggests a reading šaman<sub>x</sub> of the Sumerian lemma, a word attested in ARET V 7 = TM.75.G.2660+. Cfr. Akkadian *šummannu* A, "rope, tethering rope". See also Fronzaroli, 'Divinazione' (1997), 18; Sjöberg, 'Selected Entries I' (2003), 529-530 with bibliography; Kogan and Krebernik, 'Eblaite' (2021), 832. See also [[VE 483]].
