@@ -4,9 +4,9 @@
 
 **Hajouz no.**: 908
 
-|                Source(s)                 |   Manuscript(s)    |             Gloss             |
-| ---------------------------------------- | ------------------ | ----------------------------- |
-| ★                                        |                    | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub>               |
+| Source(s)           | Manuscript(s)      | Gloss                                                          |
+| ------------------- | ------------------ | -------------------------------------------------------------- |
+| ★                  |                    | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub>               |
 | [[A1]] obv.II:3     | [[Manuscript A-1]] | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> / *su-mu-tum* |
 | [[B8]] obv.I':2'-3' | [[Manuscript B]]   | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> / *su-mu-tum* |
 

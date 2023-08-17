@@ -1,39 +1,31 @@
 <img src="attachments/icon.png" width=100 align="left">
 
-# Foam
+## Manuscripts
 
-**👋 Welcome to your new Foam Knowledge Base!**
+<img src="attachments/manuscripts.svg" align="center">
 
-## Getting started
+* Manuscript A (only partially identified in MEE 4; corresponds to EBL2 e EBL3b di Bonechi), includes a large and a smaller tablets:
+  * Manuscript A/1 (Pettinato A1-7, G, H, I; EBL2 di Bonechi), includes 1090 entries, from the incipit to VE 1089. The manuscript was published on the DCCLT as P241570.
+  * Manuscript A/2 (Pettinato AZ+BG; Bonechi EBL3b) is a smaller tablets and includes entries from 1090 to the end. @Bonechi2016a
+    A join with 75.11317 = MEE 4, 71 = source BG and with fragment 75.3757 = A III 683 was suggested by Bonechi 2016, 'Remarks on Putative Source', CDLJ 2016/2.
+* Manuscript B (identificato solo in parte in in MEE 4, Pettinato B9-11, M, N, R, S, T; Bonechi EBL4) comprende tutte le voci elencate in EBK-A.
+* Manuscript C (non riconosciuto in MEE 4; per Pettinato si veda la tabella sottostante; Bonechi EBL3a), comprende 1090 voci e termina con VE 1090
+* Il Manuscript D (non riconosciuto in MEE 4; Bonechi EBL1; ripubblicato in parte da @Conti1990) è composto da cinque tavolette:
+  * D/1 = MEE 4, 12 = 75.2284 (VE 2-204) = Pettinato C (con immagine); Bonechi EBL1a;
+  *  D/2 = MEE 4, 24 = TM.75.G.1774 (VE 210-229) = Pettinato O (con immagine) = Bonechi EBL1b; un’immagine chiara del recto è stata pubblicata in @MatthiaeEtAl1995 [353], cat. no. 156.
+  *  D/3 = MEE 4, 32 (VE 340-423) = Pettinato V (con immagine); Bonechi EBL1c = Archi C?;
+  *  D/4 = MEE 4, 40 (VE 458-575) = Pettinato AD (con immagine); Bonechi EBL1d;
+  *  D/5 = MEE 4, 47-48 (VE 577-875) + (non incluso in Conti 1990) MEE 4, 53 e 60 = Pettinato AK (con immagine), AP, AW; Bonechi EBL1e
 
-This documentation assumes that you have a GitHub account and have [Visual Studio Code](https://code.visualstudio.com/) installed on your Linux/macOS/Windows machine.
-
-1. If you haven't yet, browse over to the main [Foam documentation](https://foambubble.github.io/foam) to get an idea of what Foam is and how to use it.
-2. Press "Use this template" button at [foam-template](https://github.com/foambubble/foam-template/generate) (that's this repository!) to fork it to your own GitHub account. If you want to keep your thoughts to yourself, remember to set the repository private.
-3. [Clone the repository to your local machine](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) and open it in VS Code.
-
-    *Open the repository as a folder using the `File > Open...` menu item.*
-
-4. When prompted to install recommended extensions, click **Install all** (or **Show Recommendations** if you want to review and install them one by one)
-
-After setting up the repository, head to [getting started](./getting-started.md) to get familiar with your new knowledge base!
-
-To learn more about how to use **Foam**, read the [Recipes](https://foambubble.github.io/foam/user/recipes/recipes) bubbles of the Foam documentation workspace.
-
-And remember that you can always join our [Foam community on Discord](https://foambubble.github.io/join-discord/g)!
-
-## Using Foam
-
-We've created a few Bubbles (Markdown documents) to get you started.
-
-- [inbox](./inbox.md) - a place to write down quick notes to be categorized later
-- [getting-started](./getting-started.md) - learn how to use your Foam workspace
-- [todo](./todo.md) - a place to keep track of things to do
-
-In the `docs` directory you can find everything you need to learn the basics of Foam.
-
-## Submitting Issues
-
-As you may have noticed, issues are disabled. With the goal to keep the project fairly easy to maintain, please file your issues in the main Foam repository:
-
-> <https://github.com/foambubble/foam>
+La nomenclatura di Bonechi è invece:
+* EBL1 = Manuscript D (non riconosciuto in MEE 4), pubblicato in @Conti1990:
+  * EBL1a = D/1 = MEE 4, 12 (VE 2-204) = Pettinato C;
+  * EBL1b = D/2 = MEE 4, 24 (VE 210-339) = Pettinato O;
+  * EBL1c = D/3 = MEE 4, 32 (VE 340-423) = Pettinato V;
+  * EBL1d = D/4 = MEE 4, 40 (VE 458-575) = Pettinato AD;
+  * EBL1e = D/5 = MEE 4, 47-48 (VE 577-875) = Pettinato AK, AP, AW;
+* EBL2 = Manuscript A/1 (Pettinato A1-7, G, H, I)
+* EBL3 = Manuscript C e A/2, per lo più non riconosciuto in MEE 4)
+  * EBL3a = Manuscript C (non riconosciuto in MEE 4)
+  * EBL3b = Manuscript A/2 (Pettinato AZ+BG)
+* EBL4 = Manuscript B (parzialmente non riconosciuto in MEE 4; Pettinato B9-11, M, N, R, S, T).
