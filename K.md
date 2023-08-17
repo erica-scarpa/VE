@@ -1,7 +1,9 @@
 # MEE 4, 20 = TM.75.G.10027
 
+Fragment of [[Manuscript C]]
+
 obv.III:18' [[VE 186a-b]] inim-di / [not glossed] 
-obv.VI:1-2  [[VE 254]]  sag-sum / *za-ba-lu* SAG              |
+obv.VI:1-2  [[VE 254]]  sag-sum / *za-ba-lu* SAG
 
 
 
