@@ -66,7 +66,7 @@
 * [[Section SI]]
 * [[Section DIM]]
 * [[Section GIRI₂]]
-* [[Section U₃]]
+* [[Section U₂]]
 * [[Section MU]]
 * [[Section URU]]
 * [[Section GAL₄]]
