@@ -8,7 +8,7 @@
 | [[VE 186a-b]] | inim-di                                          |
 | [[VE 190]]    | KA.MA                                            |
 | [[VE 254]]    | sag-sum                                          |
-| [[VE 255]]    | ~~{⸢x⸣-gudu<sub></sub>}~~ |
+| [[VE 255]]    | ~~{⸢x⸣-gudu<sub>4</sub>}~~ |
 | [[VE 418]]    | GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>  |
 | [[VE 799a-b]] | <sup>d</sup>EN.ZI, <sup>d</sup>EN.ZU             |
 | [[VE 877]]    | ḪUB<sub>2</sub>.ḪUB<sub>2</sub>                  |
@@ -20,6 +20,8 @@
 [VE 149]: <VE 149> "VE 149"
 [VE 186a-b]: <VE 186a-b> "VE 186a-b"
 [VE 190]: <VE 190> "VE 190"
+[VE 254]: <VE 254> "VE 254"
+[VE 255]: <VE 255> "VE 255"
 [VE 418]: <VE 418> "VE 418"
 [VE 799a-b]: <VE 799a-b> "VE 799a-b"
 [VE 877]: <VE 877> "VE 877"
