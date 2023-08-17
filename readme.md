@@ -1,5 +1,3 @@
-<img src="attachments/icon.png" width=100 align="left">
-
 # Vocabolario di Ebla
 # Manuscripts
 
