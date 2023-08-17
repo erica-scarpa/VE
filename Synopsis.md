@@ -9,6 +9,7 @@
 | [[VE 190]]    | KA.MA                                            | 'monkey'                                                |
 | [[VE 254]]    | sag-sum                                          |                                                         |
 | [[VE 255]]    | ~~{⸢x⸣-gudu<sub>4</sub>}~~                        |                                                         |
+| [[VE 278]]    | u<sub>2</sub>-gigir                              | 'rogue man'                                             |
 | [[VE 418]]    | GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>  | /ṯaḳālum/, ‘to weigh’                                   |
 | [[VE 799a-b]] | <sup>d</sup>EN.ZI, <sup>d</sup>EN.ZU             | /suyīn(u)/, name of the Mesopotamian moon-god Sîn/Suyin |
 | [[VE 877]]    | ḪUB<sub>2</sub>.ḪUB<sub>2</sub>                  | 'one that is always jumping'                            |
@@ -22,6 +23,7 @@
 [VE 190]: <VE 190> "VE 190"
 [VE 254]: <VE 254> "VE 254"
 [VE 255]: <VE 255> "VE 255"
+[VE 278]: <VE 278> "VE 278"
 [VE 418]: <VE 418> "VE 418"
 [VE 799a-b]: <VE 799a-b> "VE 799a-b"
 [VE 877]: <VE 877> "VE 877"
