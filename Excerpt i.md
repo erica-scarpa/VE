@@ -1,6 +1,7 @@
 # MEE 4, 81 = TM.75.G.2008
 
 obv.I:5-7   [[VE 100]]  nig<sub>2</sub>-gig / ne-ki-ki / *ni-ki-tum* 
+
 rev.VI:7-8 [[VE 186a-b]]    inim-di / ne-me-ti *ti-da-bir*<sub>5</sub>-*lum* 
 
 
