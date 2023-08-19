@@ -1,4 +1,4 @@
-lemma,source,value,status,squareColor
+lemma,source,value,squareColor
 VE 545,★,not glossed,#ffcc66
 VE 545,B9-11,not glossed,#66ff99
 VE 545,AD,glossed,#ff66cc
