@@ -178,7 +178,7 @@
                 d3.csv("https://raw.githubusercontent.com/erica-scarpa/VE/master/assets/dataset.md").then(function (data) {
 
                     // Labels of row and columns -> unique identifier of the column called 'lemma' and 'source'
-                    const myGroups = ["★", "A1","A2", "A4-6","A7","B8","B9-11","C","D","E","F","G","H","I","J","K","L", "V","AD","i", "s", "ak"]; // Define the desired order of sources
+                    const myGroups = ["★", "A1","A2", "A4-6","A7","B8","B9-11","C","D","E","F","G","H","I","J","K","L","O","R","V","X","AD","AK","AT","AV","i", "s", "ak","v"]; // Define the desired order of sources
                     const myVars = Array.from(new Set(data.map(d => d.lemma)))
                     const orderedVars = Array.from(new Set(data.map(d => d.lemma)))
                         .sort((a, b) => {
