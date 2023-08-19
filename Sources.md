@@ -84,6 +84,7 @@
 [A2]: A2 "MEE 4, 2 = TM.75.G.4526"
 [A4-6]: A4-6 "MEE 4, 4 + MEE 4, 5 + MEE 4, 6 = TM.75.G.2000+TM.75.G.2005+TM.75.G.2006"
 [B8]: B8 "MEE 4, 8 = TM.75.G.2007"
+[Manuscript B]: <Manuscript B> "Manuscript B"
 [B9-11]: B9-11 "MEE 4, 9 + MEE 4, 10 + MEE 4, 11 = TM.75.G.2004+TM.75.G.2001+TM.75.G.2003"
 [C]: C "MEE 4, 12 = TM.75.G.2284"
 [K]: K "MEE 4, 20 = TM.75.G.10027"

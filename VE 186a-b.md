@@ -22,6 +22,7 @@
 [A2]: A2 "MEE 4, 2 = TM.75.G.4526"
 [Manuscript A-1]: <Manuscript A-1> "Manuscript A-1"
 [B8]: B8 "MEE 4, 8 = TM.75.G.2007"
+[Manuscript B]: <Manuscript B> "Manuscript B"
 [C]: C "MEE 4, 12 = TM.75.G.2284"
 [K]: K "MEE 4, 20 = TM.75.G.10027"
 [Excerpt i]: <Excerpt i> "MEE 4, 81 = TM.75.G.2008"

@@ -19,6 +19,7 @@
 [A4-6]: A4-6 "MEE 4, 4 + MEE 4, 5 + MEE 4, 6 = TM.75.G.2000+TM.75.G.2005+TM.75.G.2006"
 [Manuscript A-1]: <Manuscript A-1> "Manuscript A-1"
 [B9-11]: B9-11 "MEE 4, 9 + MEE 4, 10 + MEE 4, 11 = TM.75.G.2004+TM.75.G.2001+TM.75.G.2003"
+[Manuscript B]: <Manuscript B> "Manuscript B"
 [AK]: AK "MEE 4, 47 + MEE 4, 48 = TM.75.G.1825+TM.75.G.3131"
 [AV]: AV "MEE 4 59 = TM.75.G.11244"
 [AT]: AT "MEE 4 57 = TM.75.G.3171"
