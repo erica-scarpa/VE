@@ -180,7 +180,12 @@
                     // Labels of row and columns -> unique identifier of the column called 'lemma' and 'source'
                     const myGroups = ["★", "A1","A2", "A4-6","A7","B8","B9-11","C","D","E","F","G","H","I","J","K","L", "V","AD","i", "s", "ak"]; // Define the desired order of sources
                     const myVars = Array.from(new Set(data.map(d => d.lemma)))
-
+                    const orderedVars = Array.from(new Set(data.map(d => d.lemma)))
+                        .sort((a, b) => {
+                            const aValue = parseInt(data.find(d => d.lemma === a).order);
+                            const bValue = parseInt(data.find(d => d.lemma === b).order);
+                            return aValue - bValue;
+                        });
                     // Build X scales and axis:
                     const x = d3.scaleBand()
                         .range([0, width])
@@ -195,7 +200,7 @@
                     // Build Y scales and axis:
                     const y = d3.scaleBand()
                         .range([height, 0])
-                        .domain(myVars)
+                        .domain(orderedVars)
                         .padding(0.05);
                     svg.append("g")
                         .style("font-size", 0)
@@ -279,7 +284,7 @@
                     .attr("y", -50)
                     .attr("text-anchor", "left")
                     .style("font-size", "22px")
-                    .text("A d3.js heatmap");
+                    .text("Visual synopsis of the vocabolario di Ebla");
 
                 // Add subtitle to graph
                 svg.append("text")
@@ -289,7 +294,9 @@
                     .style("font-size", "14px")
                     .style("fill", "grey")
                     .style("max-width", 400)
-                    .text("A short description of the take-away message of this chart.");
+                    .text(""
+                    
+                );
 
         </script>
 
