@@ -57,4 +57,8 @@ VE 799a-b,AT,glossed,#ff66cc,0057
 VE 857,★,not glossed,#ffcc66,0058
 VE 857,A4-6,glossed,#ff66cc,0059
 VE 857,B9-11,glossed,#ff66cc,0060
-VE 877,v,glossed,#ff66cc,0061
+VE 868,★,not glossed,#ffcc66,0061
+VE 868,A4-6,not glossed,#66ff99,0062
+VE 868,AK,not glossed,#66ff99,0063
+VE 868,B9-11,not glossed,#66ff99,0064
+VE 877,v,glossed,#ff66cc,0065
