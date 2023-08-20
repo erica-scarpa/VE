@@ -8,7 +8,7 @@
 | ---------------------- | ------------------ | ---------------------------------------- |
 | [[A4-6]] rev.X:1'-2'   | [[Manuscript A-1]] | <sup>d</sup>EN.ZI / *su*<sub>2</sub>-*i-nu* ✽       |
 | [[B9-11]] rev.II:15-16 | [[Manuscript B]]   | <sup>d</sup>EN.ZI / *su*<sub>2</sub>-*i-nu*         |
-| [[AK]] rev.IV:16'-17'  | [[Manuscript D₅]]  | ⸢<sup>d</sup>EN⸣.[ZI] / *su*<sub>2</sub>-*i-n*[*u*] |
+| [[AK]] rev.IV:16'-17'  | [[Manuscript D5]]  | ⸢<sup>d</sup>EN⸣.[ZI] / *su*<sub>2</sub>-*i-n*[*u*] |
 | [[AV]] obv.I':1'       | [[Manuscript C]]   | <sup>d</sup>E[N.ZI] / not glossed        |
 | [[AT]] rev.II':9-10    | [[Manuscript C]]   | <sup>d</sup>EN.ZU / *su*<sub>2</sub>-⸢*i*⸣-[*nu*] |
 

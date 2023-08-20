@@ -54,4 +54,7 @@ VE 799a-b,B9-11,glossed,#ff66cc,0054
 VE 799a-b,AK,glossed,#ff66cc,0055
 VE 799a-b,AV,not glossed,#66ff99,0056
 VE 799a-b,AT,glossed,#ff66cc,0057
-VE 877,v,glossed,#ff66cc,0058
+VE 857,★,not glossed,#ffcc66,0058
+VE 857,A4-6,glossed,#ff66cc,0059
+VE 857,B9-11,glossed,#ff66cc,0060
+VE 877,v,glossed,#ff66cc,0061
