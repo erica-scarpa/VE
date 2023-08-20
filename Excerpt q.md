@@ -1,1 +1,1 @@
-    <meta http-equiv="refresh" content="0; url='https://erica-scarpa.github.io/VE/Excerpt%20q%20+%20al'" />
+<meta http-equiv="refresh" content="0; url='https://erica-scarpa.github.io/VE/Excerpt%20q%20+%20al'" />
