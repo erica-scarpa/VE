@@ -47,7 +47,7 @@ VE 545,B9-11,not glossed,#66ff99,0047
 VE 545,AD,glossed,#ff66cc,0048
 VE 671,AZ,not glossed,#66ff99,0049
 VE 671,BA,not glossed,#66ff99,0050
-VE 671,ARET III 683,not glossed,#66ff99,0051
+VE 671,A III 683,not glossed,#66ff99,0051
 VE 671,f,not glossed,#66ff99,0052
 VE 799a-b,A4-6,glossed,#ff66cc,0053
 VE 799a-b,B9-11,glossed,#ff66cc,0054
