@@ -1,0 +1,18 @@
+# ARET III 683 = TM.75.G.3757
+
+[[Manuscript A-2]]
+
+On this fragment, see Bonechi, 'On ARET III 683' (1992).
+
+|       |              |                                 |
+| ----- | ------------ | ------------------------------- |
+| I:1'  | [[VE 671]]   | še-gibil                        |
+| I:2'  |              | KA.U<sub>2</sub>.KAK            |
+| I:3'  | [[VE 1212]]  | KI.DARA<sub>3</sub>.DAM.GAR.GAR |
+| I:4'  |              | [...]                           |
+| ----- | ------------ | ------------------------------- |
+| II:1' |              | *wa*                            |
+| II:2' |              | *ri*<sub>2</sub>-*ma-tum*       |
+| II:3' | [[VE 1226']] | DIN-mušen                       |
+| II:4' |              | *gi-ti-da-num*<sub>2</sub>      |
+| II:5' |              | [...]                           |
