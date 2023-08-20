@@ -17,6 +17,7 @@
 | [[VE 418]]    | GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>  | /ṯaḳālum/, ‘to weigh’                                   |
 | [[VE 530]]    | šu-šilig                                         | 'strenght'                                              |
 | [[VE 545]]    | A<sub>2</sub>.MUŠEN                              | 'eagle' or 'feather'                                    |
+| [[VE 683]]    | še-gibil                                         | 'new barley'                                            |
 | [[VE 799a-b]] | <sup>d</sup>EN.ZI, <sup>d</sup>EN.ZU             | /suyīn(u)/, name of the Mesopotamian moon-god Sîn/Suyin |
 | [[VE 877]]    | ḪUB<sub>2</sub>.ḪUB<sub>2</sub>                  | 'one that is always jumping'                            |
 

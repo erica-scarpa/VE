@@ -4,9 +4,6 @@ VE 1,A1,not glossed,#66ff99,0001
 VE 2,★,not glossed,#ffcc66,0002
 VE 2,A1,not glossed,#66ff99,0003
 VE 2,C,not glossed,#66ff99,0004
-VE 3,★,not glossed,#ffcc66,0005
-VE 3,A1,not glossed,#66ff99,0006
-VE 3,C,not glossed,#66ff99,0007
 VE 40a,★,not glossed,#ffcc66,0008
 VE 40a,A1,glossed,#ff66cc,0009
 VE 40a,B8,glossed,#ff66cc,0010
@@ -48,9 +45,13 @@ VE 530,AD,glossed,#ff66cc,0045
 VE 545,★,not glossed,#ffcc66,0046
 VE 545,B9-11,not glossed,#66ff99,0047
 VE 545,AD,glossed,#ff66cc,0048
-VE 799a-b,A4-6,glossed,#ff66cc,0049
-VE 799a-b,B9-11,glossed,#ff66cc,0050
-VE 799a-b,AK,glossed,#ff66cc,0051
-VE 799a-b,AV,not glossed,#66ff99,0052
-VE 799a-b,AT,glossed,#ff66cc,0053
-VE 877,v,glossed,#ff66cc,0054
+VE 671,AZ,not glossed,#66ff99,0049
+VE 671,BA,not glossed,#66ff99,0050
+VE 671,ARET III 683,not glossed,#66ff99,0051
+VE 671,f,not glossed,#66ff99,0052
+VE 799a-b,A4-6,glossed,#ff66cc,0053
+VE 799a-b,B9-11,glossed,#ff66cc,0054
+VE 799a-b,AK,glossed,#ff66cc,0055
+VE 799a-b,AV,not glossed,#66ff99,0056
+VE 799a-b,AT,glossed,#ff66cc,0057
+VE 877,v,glossed,#ff66cc,0058
