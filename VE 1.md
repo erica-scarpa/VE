@@ -6,7 +6,7 @@
 
 | Source(s)      | Manuscript(s)      | Gloss                                              |
 | -------------- | ------------------ | -------------------------------------------------- |
-| ★ obv.I:1      |                    | eš<sub>2</sub>-bar-kin<sub>5</sub>                 |
+| [[EBK-A]] obv.I:1      |                    | eš<sub>2</sub>-bar-kin<sub>5</sub>                 |
 | [[A1]] obv.I:1 | [[Manuscript A-1]] | eš<sub>2</sub>-bar-kin<sub>5</sub> / [not glossed] |
 
 
