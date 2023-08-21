@@ -175,7 +175,7 @@
                     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
                 //Read the data
-                d3.csv("https://raw.githubusercontent.com/erica-scarpa/VE/master/assets/dataset.md").then(function (data) {
+                d3.csv("https://raw.githubusercontent.com/erica-scarpa/VE/master/assets/dataset.csv").then(function (data) {
 
                     // Labels of row and columns -> unique identifier of the column called 'lemma' and 'source'
                     const myGroups = ["★", "A1","A2", "A4-6","A7","B8","B9-11","C","D","E","F","G","H","I","J","K","L","O","R","V","X","AD","AK","AT","AV","AZ","BA","f","i", "s", "ak","v","A III 683"]; // Define the desired order of sources
@@ -243,7 +243,7 @@
 
                         tooltip
                             .html("<b>" + d.lemma + "</b>" +
-                                d.sumerian "/" d.gloss +
+                                "<br>" + d.sumerian + " / " + d.gloss +
                                 "<br><b>Source</b>: " + d.source +
                                 "<br><b>Status</b>: " + d.value
                             )
