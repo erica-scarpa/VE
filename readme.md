@@ -1,7 +1,3 @@
----
-layout:default
----
-
 # Vocabolario di Ebla
 
 The content is organized as follows (see sub [Synposis](https://erica-scarpa.github.io/VE/Synopsis.html)):
