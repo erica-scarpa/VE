@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en" data-bs-theme="auto">
 
 <head>
@@ -9,27 +10,29 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.111.3">
     <title>VE</title>
-<!-- Load d3.js -->
-<script src="https://d3js.org/d3.v6.js"></script>
-
-
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
 
     <!-- Bootstrap CDN-->
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
     <!-- Bootstrap icons -->
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <!-- css -->
-
-<link rel="stylesheet" href="https://erica-scarpa.github.io/VE/assets/css/style.css">
+    <link rel="stylesheet" href="https://erica-scarpa.github.io/VE/assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pzjw6+V4f9Bq1p4/KN5a4zk5TC2+ryjDMz4lO12a3fFh5lJq4Ck4Jc9PynNIbbVX"
+        crossorigin="anonymous"></script>
     <main>
 
         <div class="container">
@@ -39,15 +42,30 @@
                     <img src="attachments/icon.png" height="50px">
                     </a>
                 </div>
-
+            
                 <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="https://erica-scarpa.github.io/VE/index.html" class="nav-link px-2 link-active" aria-current="page">Home</a></li>
-                    <li><a href="https://erica-scarpa.github.io/VE/Sources.html" class="nav-link px-2">Sources and Manuscripts</a></li>
-                    <li><a href="https://erica-scarpa.github.io/VE/Synopsis.html" class="nav-link px-2">Synopsis</a></li>
-                    <li><a href="https://erica-scarpa.github.io/VE/Chart.html" class="nav-link px-2">Chart</a></li>
-                    <li><a href="https://erica-scarpa.github.io/VE/Credits.html" class="nav-link px-2">Credits & More</a></li>
+                    <li><a href="index.html" class="nav-link px-2 link-active" aria-current="page">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sources and Manuscripts
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Sources.html">Bilingual Sources</a></li>
+                            <li><a class="dropdown-item" href="Acrographic.html">Acrographic Sources action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Synopsis
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Synopsis.html">Synopsis of the VE</a></li>
+                            <li><a class="dropdown-item" href="Chart.html">Chart of the VE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Credits.html" class="nav-link px-2">Credits & More</a></li>
                 </ul>
-
+            
             </header>
         </div>
 
@@ -178,7 +196,7 @@
                 d3.csv("https://raw.githubusercontent.com/erica-scarpa/VE/master/assets/dataset.csv").then(function (data) {
 
                     // Labels of row and columns -> unique identifier of the column called 'lemma' and 'source'
-                    const myGroups = ["[[EBK-A]]", "A1","A2", "A4-6","A7","B8","B9-11","C","D","E","F","G","H","I","J","K","L","O","R","V","X","AD","AK","AT","AV","AZ","BA","f","i", "s", "ak","v","A III 683"]; // Define the desired order of sources
+                    const myGroups = ["EBK-A", "A1","A2", "A4-6","A7","B8","B9-11","C","D","E","F","G","H","I","J","K","L","O","R","V","X","AD","AK","AT","AV","AZ","BA","f","h","i","s", "ak","v","A III 683"]; // Define the desired order of sources
                     const myVars = Array.from(new Set(data.map(d => d.lemma)))
                     const orderedVars = Array.from(new Set(data.map(d => d.lemma)))
                         .sort((a, b) => {
