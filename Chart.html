@@ -42,7 +42,7 @@
                     <a href="index.html" class="nav-link px-2 link-active" aria-current="page"></a><img src="attachments/icon.png" height="50px">
                     </a>
                 </div>
-            
+            <title>Vocabolario di Ebla</title>
                 <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="index.html" class="nav-link px-2 link-active" aria-current="page">Home</a></li>
                     <li class="nav-item dropdown">
@@ -208,7 +208,7 @@
                 d3.csv("https://raw.githubusercontent.com/erica-scarpa/VE/master/assets/dataset.csv").then(function (data) {
 
                     // Labels of row and columns -> unique identifier of the column called 'lemma' and 'source'
-                    const myGroups = ["EBK-A", "A1","A2", "A4-6","A7","B8","B9-11","C","D","E","F","G","H","I","J","K","L","O","R","V","X","AD","AK","AT","AV","AZ","BA","f","h","i","s", "ak","v","A III 683"]; // Define the desired order of sources
+                    const myGroups = ["EBK-A", "A1","A2", "A4-6","A7","B8","B9-11","C","D","E","F","G","H","I","J","K","L","O","R","V","X","AD","AK","AT","AV","AZ","BA","BB","BG","f","h","i","s", "ak","v","A III 683"]; // Define the desired order of sources
                     const myVars = Array.from(new Set(data.map(d => d.lemma)))
                     const orderedVars = Array.from(new Set(data.map(d => d.lemma)))
                         .sort((a, b) => {
