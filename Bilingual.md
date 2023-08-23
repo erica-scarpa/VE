@@ -63,7 +63,7 @@
 | *MEE* 4, 60              | TM.75.G.5661                | AW               | [[Manuscript D5]]  | EBL<sub>1d</sub> |
 | *MEE* 4, 61              | TM.75.G.4539                | AX               | [[Manuscript C]]   | EBL<sub>3a</sub> |
 | *MEE* 4, 62              | TM.75.G.4538                | AY               | [[Manuscript C]]   | EBL<sub>3a</sub> |
-| *MEE* 4, 63 +*MEE* 4, 64 | TM.75.G.10023+TM.75.G.11301 | AZ               | [[Manuscript A-2]] | EBL<sub>3b</sub> |
+| *MEE* 4, 63 +*MEE* 4, 64 | TM.75.G.10023+TM.75.G.11301 | [[AZ]]               | [[Manuscript A-2]] | EBL<sub>3b</sub> |
 | *ARET* III, 683          | TM.75.G.3757                | [[ARET III 683]] |                    |                  |
 | *MEE* 4, 65              | TM.75.G.4525                | BA               | [[Manuscript B]]   | EBL<sub>4</sub>  |
 | *MEE* 4, 66              | TM.75.G.5266                | [[BB]]               | [[Manuscript B]]   | EBL<sub>4</sub>  |
@@ -128,6 +128,8 @@
 [R]: R "MEE 4, 27 = TM.75.G.5305"
 [V]: V "MEE 4 32 = TM.75.G.1448"
 [X]: X "MEE 4, 34 = TM.75.G.11308"
+[AZ]: AZ "MEE 4, 63 + MEE 4, 64 = TM.75.G.10023 + TM.75.G.11301"
+[Manuscript A-2]: <Manuscript A-2> "Manuscript A-2"
 [ARET III 683]: <ARET III 683> "ARET III 683 = TM.75.G.3757"
 [BB]: BB "MEE 4, 66 = TM.75.G.5266"
 [BG]: BG "MEE 4, 71 = TM.75.G.11317"
