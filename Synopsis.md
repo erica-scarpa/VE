@@ -1,30 +1,31 @@
 # Synopsis
 
-| VE no.        | Lemma                                            |                                                         |
-| ------------- | ------------------------------------------------ | ------------------------------------------------------- |
-| [[VE 1]]      | eš<sub>2</sub>-bar-kin<sub>5</sub>               |                                                         |
-| [[VE 2]]      | nig<sub>2</sub>-tum<sub>2</sub>                  |                                                         |
-| [[VE 40a]]    | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> | /šummuttum/, ‘tethering rope’                           |
-| [[VE 100]]    | nig<sub>2</sub>-gig                              | /niḳītum/, ‘(ritual) purity, sacredness’                |
-| [[VE 149]]    | u<sub>3</sub>-nu-gar                             | 'fraud'                                                 |
-| [[VE 186a-b]] | inim-di                                          | 'instruction, order'                                    |
-| [[VE 190]]    | KA.MA                                            | 'monkey'                                                |
-| [[VE 254]]    | sag-sum                                          |                                                         |
-| [[VE 255]]    | ~~⸢x⸣-gudu<sub>4</sub>~~                       |                                                         |
-| [[VE 278]]    | u<sub>2</sub>-gigir                              | 'rogue man'                                             |
-| [[VE 291]]    | <sup>u₂</sup>gudu<sub>4</sub>                    | /šanṭum/, 'Acacia'                                      |
-| [[VE 409a]]   | <sup>giš</sup>DILMUN                             | 'to weigh'                                              |
-| [[VE 418]]    | GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>  | /ṯaḳālum/, ‘to weigh’                                   |
-| [[VE 530]]    | šu-šilig                                         | 'strenght'                                              |
-| [[VE 545]]    | A<sub>2</sub>.MUŠEN                              | 'eagle' or 'feather'                                    |
-| [[VE 671]]    | še-gibil                                         | 'new barley'                                            |
-| [[VE 799a-b]] | <sup>d</sup>EN.ZI, <sup>d</sup>EN.ZU             | /suyīn(u)/, name of the Mesopotamian moon-god Sîn/Suyin |
-| [[VE 857]]    | gid<sub>2</sub><sup>tug₂</sup>                   | '(a kind of garment)'                                   |
-| [[VE 868]]    | gin<sub>3</sub><sup>za</sup>                     | 'lapis lazuli'                                          |
-| [[VE 877]]    | ~~ḪUB<sub>2</sub>.ḪUB<sub>2</sub>~~              | 'one that is always jumping'                            |
-| [[VE 901]]    | na-de<sub>5</sub>                                | 'clean'                                                 |
-| [[VE 1058]]   | ama-ug<sub>5</sub>-ga                            | 'exquisite edible commodity'                            |
-| [[VE 1227']]  | tu<sub>x</sub> (NAGA.A)                          | 'to clean, to wash'                                     |
+| VE no.         | Lemma                                            |                                                         |
+| -------------- | ------------------------------------------------ | ------------------------------------------------------- |
+| [[VE 1]]       | eš<sub>2</sub>-bar-kin<sub>5</sub>               |                                                         |
+| [[VE 2]]       | nig<sub>2</sub>-tum<sub>2</sub>                  |                                                         |
+| [[VE 40a]]     | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> | /šummuttum/, ‘tethering rope’                           |
+| [[VE 100]]     | nig<sub>2</sub>-gig                              | /niḳītum/, ‘(ritual) purity, sacredness’                |
+| [[VE 149]]     | u<sub>3</sub>-nu-gar                             | 'fraud'                                                 |
+| [[VE 186a-b]]  | inim-di                                          | 'instruction, order'                                    |
+| [[VE 190]]     | KA.MA                                            | 'monkey'                                                |
+| [[VE 254]]     | sag-sum                                          |                                                         |
+| [[VE 255]]     | ~~⸢x⸣-gudu<sub>4</sub>~~                       |                                                         |
+| [[VE 278]]     | u<sub>2</sub>-gigir                              | 'rogue man'                                             |
+| [[VE 291]]     | <sup>u₂</sup>gudu<sub>4</sub>                    | /šanṭum/, 'Acacia'                                      |
+| [[VE 409a]]    | <sup>giš</sup>DILMUN                             | 'to weigh'                                              |
+| [[VE 418]]     | GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>  | /ṯaḳālum/, ‘to weigh’                                   |
+| [[VE 530]]     | šu-šilig                                         | 'strenght'                                              |
+| [[VE 545]]     | A<sub>2</sub>.MUŠEN                              | 'eagle' or 'feather'                                    |
+| [[VE 671]]     | še-gibil                                         | 'new barley'                                            |
+| [[VE 799a-b]]  | <sup>d</sup>EN.ZI, <sup>d</sup>EN.ZU             | /suyīn(u)/, name of the Mesopotamian moon-god Sîn/Suyin |
+| [[VE 857]]     | gid<sub>2</sub><sup>tug₂</sup>                   | '(a kind of garment)'                                   |
+| [[VE 868]]     | gin<sub>3</sub><sup>za</sup>                     | 'lapis lazuli'                                          |
+| [[VE 877]]     | ~~ḪUB<sub>2</sub>.ḪUB<sub>2</sub>~~              | 'one that is always jumping'                            |
+| [[VE 901]]     | na-de<sub>5</sub>                                | 'clean'                                                 |
+| [[VE 1058]]    | ama-ug<sub>5</sub>-ga                            | 'exquisite edible commodity'                            |
+| [[VE 1227']]   | tu<sub>x</sub> (NAGA.A)                          | 'to clean, to wash'                                     |
+| [[VE 1412'a']] | geme<sub>2</sub>-kar-ke<sub>3</sub>              | 'tavern-keeper; prostitute'                             |
 
 [//begin]: # "Autogenerated link references for markdown compatibility"1[VE 40a]: <VE 40a> "VE 40a"1[VE 100]: <VE 100> "VE 100"1[VE 149]: <VE 149> "VE 149"1[VE 186a-b]: <VE 186a-b> "VE 186a-b"1[VE 190]: <VE 190> "VE 190"1[VE 254]: <VE 254> "VE 254"1[VE 255]: <VE 255> "VE 255"1[VE 278]: <VE 278> "VE 278"1[VE 291]: <VE 291> "VE 291"1[VE 418]: <VE 418> "VE 418"1[VE 799a-b]: <VE 799a-b> "VE 799a-b"1[VE 877]: <VE 877> "VE 877"1[//end]: # "Autogenerated link references"
 [//end]: # "Autogenerated link references"
