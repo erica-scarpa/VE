@@ -2,7 +2,7 @@
 
 [[Manuscript A-2]]
 
-On this fragment, see Bonechi, 'On ARET III 683' (1992).
+On this fragment, see [[Bonechi, 'On ARET III 683' (1992)]].
 
 |       |              |                                 |
 | ----- | ------------ | ------------------------------- |

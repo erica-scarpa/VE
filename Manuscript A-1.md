@@ -3,7 +3,6 @@
 Manuscript A-1 (Pettinato’s A1, A4-6, A5, A7, G, H, I; Bonechi EBL<sub>2</sub>) includes 1090 entries from the beginning to [[VE 1089]]. It has also been published on the DCCLT as P241570. This tablet is the "first page" of a manuscript that according to Archi's reconstruction spread over two tablets, the second being [[Manuscript A-2]]. This nomenclaturem relies on the conclusion that Manuscript A-2 (= Pettinato’s AZ = MEE 4 63+63 + BG = MEE 4 71 + A III 683; Bonechi’s EBL<sub>3b</sub> ) is the continuation of Manuscript A1 (Pettinato’s A1-7, G, H, I; Bonechi’s EBL<sub>2</sub>). Bonechi suggests instead it is the continuation of Manuscript C (Bonechi’s EBL<sub>3a</sub>; See Bonechi, 'Putative Source' [2016]). Manuscript A-1 includes fragments:
 * [[A1]]
 * [[A4-6]]
-* [[A5]]
 * [[A7]]
 * [[G]]
 * [[H]]

@@ -5,6 +5,7 @@
 On this composition see [[Archi, 'Lista di nomi e professioni' (1981)]] and [[Archi, 'Names and Professions list' (1984)]].
 
 TM.75.G.2659 +TM.75.G.2661+TM.75.G.2662+TM.75.G.2663+ MEE 3 43 = TM.75.G.3439 +TM.75.G.10007+TM.75.G.11201+TM.75.G.11310, plus one chip from bag XXXIII
+
 |             |                  |
 | ----------- | ---------------- |
 | obv.VIII:8b | agrig            |
