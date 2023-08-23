@@ -1,310 +1,122 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Meta information -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vocabolario di Ebla</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  <!-- Bootstrap icons -->
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-
-    <!-- Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
-
-    <!-- Custom CSS -->
-    <link
-      rel="stylesheet"
-      href="https://erica-scarpa.github.io/VE/assets/css/style.css"
-    />
-  </head>
-
-  <body>
-    <div class="container">
-      <!-- Header section -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://erica-scarpa.github.io/VE/assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  <div class="container">
       <header
-        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
-      >
-        <!-- Logo -->
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        
         <div class="col-md-3 mb-2 mb-md-0">
-          <a
-            href="index.html"
-            class="nav-link px-2 link-active"
-            aria-current="page"
-          >
-            <img src="attachments/logo.svg" height="50px" alt="Logo" />
+          <a href="index.html" class="nav-link px-2 link-active" aria-current="page"></a><img src="attachments/logo.svg" height="50px">
           </a>
         </div>
-        <!-- Navigation -->
+        <title>Vocabolario di Ebla</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <!-- Home -->
-          <li>
-            <a
-              href="index.html"
-              class="nav-link px-2 link-active"
-              aria-current="page"
-              >Home</a
-            >
-          </li>
+          <li><a href="index.html" class="nav-link px-2 link-active" aria-current="page">Home</a></li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sources and Manuscripts
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item nav-link" href="Bilingual.html">Bilingual Sources</a></li>
+                      <li><a class="dropdown-item nav-link" href="Unilingual.html">Unilingual Sources</a></li>
+                      <li><a class="dropdown-item nav-link" href="Acrographic.html">Acrographic Sources</a></li>
+                                  <li>
+                                    <hr class="dropdown-divider">
+                                  </li>
 
-          <!-- Sources and Manuscripts Dropdown -->
+                      <li><a class="dropdown-item nav-link" href="Bilingual Manuscripts.html">Bilingual Manuscripts</a></li>
+                      <li><a class="dropdown-item nav-link" href="Acrographic Manuscripts.html">Acrographic Manuscripts</a></li>
+                    </ul>
+                  </li>
           <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Sources and Manuscripts
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item nav-link" href="Bilingual.html"
-                  >Bilingual Sources</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="Unilingual.html"
-                  >Unilingual Sources</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="Acrographic.html"
-                  >Acrographic Sources</a
-                >
-              </li>
-              <li>
-                <hr class="dropdown-divider" />
-              </li>
-              <!-- Divider -->
-              <li>
-                <a
-                  class="dropdown-item nav-link"
-                  href="Bilingual Manuscripts.html"
-                  >Bilingual Manuscripts</a
-                >
-              </li>
-              <li>
-                <a
-                  class="dropdown-item nav-link"
-                  href="Acrographic Manuscripts.html"
-                  >Acrographic Manuscripts</a
-                >
-              </li>
-            </ul>
-          </li>
-
-          <!-- Synopsis Dropdown -->
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Synopsis
             </a>
             <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item nav-link" href="Synopsis.html"
-                  >Synopsis of the VE</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="Chart.html"
-                  >Chart of the VE</a
-                >
-              </li>
+              <li><a class="dropdown-item nav-link" href="Synopsis.html">Synopsis of the VE</a></li>
+              <li><a class="dropdown-item nav-link" href="Chart.html">Chart of the VE</a></li>
             </ul>
           </li>
-
-          <!-- More Dropdown -->
           <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               More
             </a>
             <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item nav-link" href="Roots.html">Roots</a>
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="Credits.html"
-                  >Credits</a
-                >
-              </li>
-              <li>
-                <a
-                  class="dropdown-item nav-link"
-                  href="https://github.com/erica-scarpa/VE"
-                  >Github repository</a
-                >
-              </li>
+              <li><a class="dropdown-item nav-link" href="Roots.html">Roots</a></li>
+              <li><a class="dropdown-item nav-link" href="Credits.html">Credits</a></li>
+              <li><a class="dropdown-item nav-link" href="https://github.com/erica-scarpa/VE">Github repository</a></li>
             </ul>
           </li>
         </ul>
+
       </header>
     </div>
-
-    <!-- Content placeholder -->
     {{content}}
 
-    <!-- Footer section -->
-    <div class="flex-shrink-0 bg-light">
-      <div class="container">
-        <footer class="py-5">
-          <div class="row">
-            <!-- Left column -->
-            <div class="col-6 col-md-6 mb-3">
-              <!-- Logo and title -->
-              <a
-                class="d-inline-flex align-items-center mb-2 text-body-secondary text-decoration-none"
-                href="/"
-                aria-label="Bootstrap"
-              >
-                <img
-                  src="attachments/logo.svg"
-                  height="45px"
-                  alt="Logo"
-                />&nbsp;
-              </a>
-              <span class="fs-5"
-                >Synopsis of the <i>Vocabolario di Ebla</i></span
-              >
-
-              <!-- Links section -->
-              <h5>Links</h5>
-              <ul class="list-unstyled small">
-                <li class="mb-2">
-                  <a href="http://ebda.cnr.it/" target="_blank"
-                    >Ebla Digital Archives</a
-                  >
-                </li>
-                <li class="mb-2">
-                  <a
-                    href="https://www.sagas.unifi.it/vp-337-archive.html"
-                    target="_blank"
-                    >Prosopography of Ebla</a
-                  >
-                </li>
-                <li class="mb-2">
-                  <a
-                    href="http://oracc.museum.upenn.edu/dcclt/corpus"
-                    target="_blank"
-                    >DCCLT</a
-                  >
-                </li>
-                <li class="mb-2">
-                  <a href="https://cdli.mpiwg-berlin.mpg.de/" target="_blank"
-                    >cdli</a
-                  >
-                </li>
-              </ul>
-              <ul class="list-unstyled small">
-                <li class="mb-2">
-                  Designed and built with 🩷 by
-                  <a
-                    rel="cc:attributionURL dct:creator"
-                    property="cc:attributionName"
-                    href="https://erica-scarpa.github.io"
-                    >Erica Scarpa</a
-                  >
-                  and licensed under
-                  <a
-                    href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
-                    target="_blank"
-                    rel="license noopener noreferrer"
-                    style="display: inline-block"
-                    >CC BY-NC-SA 4.0</a
-                  >.
-                </li>
-                <li class="mb-2">
-                  Built with
-                  <a href="https://blog.getbootstrap.com" target="_blank"
-                    >Bootstrap 5</a
-                  >,
-                  <a href="https://foambubble.github.io/" target="_blank"
-                    >Foam</a
-                  >
-                  and <a href="https://d3js.org" target="_blank">D3.js</a>.
-                  Heatmap template from
-                  <a href="https://d3-graph-gallery.com/heatmap" target="_blank"
-                    >D3.js Graph Gallery</a
-                  >.
-                </li>
-                <li class="mb-2">
-                  <a href="https://icons.getbootstrap.com" target="_blank"
-                    >Bootstrap</a
-                  >
-                  and
-                  <a href="https://fontawesome.com" target="_blank"
-                    >Fontawesome</a
-                  >
-                  icons.
-                </li>
-                <li class="mb-2">
-                  <svg
-                    height="12px"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                  >
-                    <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                    <path
-                      d="M246.9 23.7C242.3 6.6 224.8-3.5 207.7 1.1s-27.2 22.1-22.6 39.2L238 237.8c2.5 9.2-4.5 18.2-14 18.2c-6.4 0-12-4.2-13.9-10.3L166.6 102.7c-5.1-16.9-23-26.4-39.9-21.3s-26.4 23-21.3 39.9l62.8 206.4c2.4 7.9-7.2 13.8-13.2 8.1L99.6 283c-16-15.2-41.3-14.6-56.6 1.4s-14.6 41.3 1.4 56.6L156.8 448c43.1 41.1 100.4 64 160 64h10.9 8.2c.1 0 .1-.1 .1-.1s.1-.1 .1-.1c58.3-3.5 108.6-43.2 125.3-99.7l81.2-275c5-16.9-4.7-34.7-21.6-39.8s-34.7 4.7-39.8 21.6L443.5 247.1c-1.6 5.3-6.4 8.9-12 8.9c-7.9 0-13.8-7.3-12.2-15.1l36-170.3c3.7-17.3-7.4-34.3-24.7-37.9s-34.3 7.4-37.9 24.7L355.1 235.1c-2.6 12.2-13.3 20.9-25.8 20.9c-11.9 0-22.4-8-25.4-19.5l-57-212.8z"
-                    />
-                  </svg>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Right column -->
-            <div class="col-md-4 offset-md-1 mb-3">
-              <!-- Contact information -->
-              <h5>Noticed something wrong?</h5>
-              Let me know:
-              <a href="mailto:erica.scarpa@gmail.com">erica.scarpa@gmail.com</a
-              ><br />
-
-              <!-- Social media and personal links -->
-              <h3>
-                <a href="https://github.com/erica-scarpa" target="_blank"
-                  ><i class="bi bi-github"></i
-                ></a>
-                <a href="https://mastodon.social/@erica_scarpa" target="_blank"
-                  ><i class="fa-brands fa-mastodon"></i
-                ></a>
-                <a href="https://erica-scarpa.github.io" target="_blank"
-                  ><i class="bi bi-house"></i
-                ></a>
-              </h3>
-            </div>
+        <div class="flex-shrink-0 bg-light">
+          <div class="container">
+            <footer class="py-5">
+              <div class="row">
+        
+                <div class="col-6 col-md-6 mb-3">
+                  <a class="d-inline-flex align-items-center mb-2 text-body-secondary text-decoration-none" href="/"
+                    aria-label="Bootstrap">
+                    <img src="attachments/logo.svg" height="45px">&nbsp;
+        </a>  
+                    <span class="fs-5">Synopsis of the <i>Vocabolario di Ebla</i></span>
+                  
+                  <h5>Links</h5>
+                  <ul class="list-unstyled small">
+                    <li class="mb-2"><a href="http://ebda.cnr.it/" target="_blank">Ebla Digital Archives</a></li>
+                    <li class="mb-2"><a href="https://www.sagas.unifi.it/vp-337-archive.html" target="_blank">Prosopography
+                        of
+                        Ebla</a></li>
+                    <li class="mb-2"><a href="http://oracc.museum.upenn.edu/dcclt/corpus" target="_blank">DCCLT</a></li>
+                    <li class="mb-2"><a href="https://cdli.mpiwg-berlin.mpg.de/" target="_blank">cdli</a></li>
+        
+                  </ul>
+                  <ul class="list-unstyled small">
+                    <li class="mb-2">Designed and built with 🩷 by <a rel="cc:attributionURL dct:creator"
+                        property="cc:attributionName" href="https://erica-scarpa.github.io">Erica Scarpa</a> and licensed
+                      under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank"
+                        rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a>.</li>
+                    <il class="mb-2">Built with <a href="https://blog.getbootstrap.com" target="_blank">Bootstrap 5</a>, <a
+                        href="https://foambubble.github.io/" target="_blank">Foam</a> and <a href="https://d3js.org"
+                        target="_blank">D3.js</a>. Heatmap template from <a href="https://d3-graph-gallery.com/heatmap"
+                        target="_blank">D3.js Graph Gallery</a>.</il>
+                    <il class="mb-2"><a href="https://icons.getbootstrap.com" target="_blank">Bootstrap</a> and <a
+                        href="https://fontawesome.com" target="_blank">Fontawesome</a> icons.</il>
+                    <li class="mb-2"><svg height="12px" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                          d="M246.9 23.7C242.3 6.6 224.8-3.5 207.7 1.1s-27.2 22.1-22.6 39.2L238 237.8c2.5 9.2-4.5 18.2-14 18.2c-6.4 0-12-4.2-13.9-10.3L166.6 102.7c-5.1-16.9-23-26.4-39.9-21.3s-26.4 23-21.3 39.9l62.8 206.4c2.4 7.9-7.2 13.8-13.2 8.1L99.6 283c-16-15.2-41.3-14.6-56.6 1.4s-14.6 41.3 1.4 56.6L156.8 448c43.1 41.1 100.4 64 160 64h10.9 8.2c.1 0 .1-.1 .1-.1s.1-.1 .1-.1c58.3-3.5 108.6-43.2 125.3-99.7l81.2-275c5-16.9-4.7-34.7-21.6-39.8s-34.7 4.7-39.8 21.6L443.5 247.1c-1.6 5.3-6.4 8.9-12 8.9c-7.9 0-13.8-7.3-12.2-15.1l36-170.3c3.7-17.3-7.4-34.3-24.7-37.9s-34.3 7.4-37.9 24.7L355.1 235.1c-2.6 12.2-13.3 20.9-25.8 20.9c-11.9 0-22.4-8-25.4-19.5l-57-212.8z" />
+                      </svg></li>
+                  </ul>
+        
+                </div>
+        
+        
+        
+                <div class="col-md-4 offset-md-1 mb-3">
+        
+                  <h5>Noticed something wrong?</h5>
+                  Let me know: <a href="mailto:">erica.scarpa@gmail.com</a><br>
+                  <h3> <a href="https://github.com/erica-scarpa" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://mastodon.social/@erica_scarpa" target="_blank"><i class="fa-brands fa-mastodon"></i></a>
+                    <a href="https://erica-scarpa.github.io" target="_blank"><i class="bi bi-house"></i></a>
+                  </h3>
+                  </a>
+        
+                </div>
+              </div>
+        
+      
+            </footer>
           </div>
-        </footer>
-      </div>
-    </div>
-
-    <!-- JavaScript dependencies -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+        </div>
