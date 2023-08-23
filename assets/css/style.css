@@ -61,7 +61,6 @@ h6 {
 
 img, svg {
     max-width: 100%;
-    height: auto;
 }
 
 .dropdown-toggle:not(:focus) {
