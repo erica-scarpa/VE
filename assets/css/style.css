@@ -8,9 +8,26 @@ body {
     height: 100%;
 }
 
-a:link,
-:visited {
-    color: var(--bs-dark);
+.nav-link, .nav-link:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #333;
+}
+
+a {
+    color: #dd5f6d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ab3c47;
+}
+
+a:visited {
+    color: #7c3941;
 }
 
 .text-small {
@@ -133,16 +150,6 @@ a:link,
     0% {
         width: 0;
     }
-}
-
-.link {
-    fill: none;
-    stroke: #000;
-    stroke-opacity: .2;
-}
-
-.link:hover {
-    stroke-opacity: .5;
 }
 
 table{
