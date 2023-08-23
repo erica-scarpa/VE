@@ -133,6 +133,7 @@
 [ARET III 683]: <ARET III 683> "ARET III 683 = TM.75.G.3757"
 [BB]: BB "MEE 4, 66 = TM.75.G.5266"
 [BG]: BG "MEE 4, 71 = TM.75.G.11317"
+[Excerpt d]: <Excerpt d> "MEE 4 76 =  TM.75.G.1445"
 [Excerpt f]: <Excerpt f> "MEE 4 78 = TM.75.G.1678"
 [Excerpt i]: <Excerpt i> "MEE 4, 81 = TM.75.G.2008"
 [Excerpt q]: <Excerpt q> "Excerpt q"
