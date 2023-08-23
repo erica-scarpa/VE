@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; url='https://erica-scarpa.github.io/VE/Bilingual%20list%20of%20animals'" />
+<meta http-equiv="refresh" content="0; url='https://erica-scarpa.github.io/VE/Bilingual%20list%20of%20animals%201'" />
