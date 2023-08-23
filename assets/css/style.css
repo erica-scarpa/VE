@@ -34,6 +34,20 @@ a:visited {
     color: #dd5f6d;
 }
 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 50px;
+}
 .text-small {
     font-size: 85%;
 }
@@ -43,6 +57,11 @@ a:visited {
     padding: 40px;
     border-radius: 30px;
     margin-top: 30px;
+}
+
+img, svg {
+    max-width: 100%;
+    height: auto;
 }
 
 .dropdown-toggle:not(:focus) {
