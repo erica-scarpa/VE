@@ -117,7 +117,22 @@
                                                     <h5 class="card-title">Manuscript A-1</h5>
                                                     <h6 class="card-subtitle mb-2 text-body-secondary">Filter according
                                                         to sources of Manuscript A-1</h6>
-                                                    <div id="checkboxes1"></div>
+                                                    <div id="manuscripta1"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="row g-0">
+                                
+                                            <div class="col-md-12">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Manuscript A-2</h5>
+                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2
+                                                    </h6>
+                                                    <div id="manuscripta2"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -132,7 +147,37 @@
                                                     <h5 class="card-title">Manuscript B</h5>
                                                     <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2
                                                     </h6>
-                                                    <div id="checkboxes2"></div>
+                                                    <div id="manuscriptb"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="row g-0">
+                                
+                                            <div class="col-md-12">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Manuscript C</h5>
+                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2
+                                                    </h6>
+                                                    <div id="manuscriptc"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="row g-0">
+                                
+                                            <div class="col-md-12">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Manuscript D</h5>
+                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2
+                                                    </h6>
+                                                    <div id="manuscriptd"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -267,7 +312,7 @@
             d3.csv("https://raw.githubusercontent.com/erica-scarpa/VE/master/assets/dataset.csv").then(function (data) {
                 // Create an array to keep track of selected sources
                 if (!selectedSources) {
-                    selectedSources = ["EBK-A", "A1", "A2", "A4-6", "A7", "B8", "B9-11", "C", "D", "E", "F", "G", "H", "I", "J", "K",]; // Default selection
+                    selectedSources = ["EBK-A", "A1", "A2","A-3","A4-6", "A7", "G", "H", "I"]; // Default selection
                 }
 
                 // Labels of row and columns -> unique identifier of the column called 'lemma' and 'source'
@@ -356,10 +401,10 @@
                         .style("opacity", 0.8);
                 };
 
-                // Add checkboxes for filtering data to card 1
-                const checkboxes1 = d3.select("#checkboxes1")
+                // Add checkboxes for filtering data to Manuscript A-1
+                const manuscripta1 = d3.select("#manuscripta1")
                     .selectAll("input")
-                    .data(["EBK-A", "A1", "A2", "A4-6", "A7", "G", "H", "I"]) // Include only desired values
+                    .data(["EBK-A", "A1", "A2", "A-3", "A4-6", "A7", "G", "H", "I"]) // Include only desired values
                     .enter()
                     .append("label")
                     .text(d => d)
@@ -378,8 +423,30 @@
                         renderHeatmap(selectedSources);
                     });
 
-                // Add checkboxes for filtering data to card 2
-                const checkboxes2 = d3.select("#checkboxes2")
+                // Add checkboxes for filtering data to Manuscript A-2
+                const manuscripta2 = d3.select("#manuscripta2")
+                    .selectAll("input")
+                    .data(["AZ","BG","A III 683"]) // Include only desired values
+                    .enter()
+                    .append("label")
+                    .text(d => d)
+                    .append("input")
+                    .attr("type", "checkbox")
+                    .attr("class", "filter-checkbox")
+                    .attr("value", d => d)
+                    .property("checked", d => selectedSources.includes(d))
+                    .on("change", function () {
+                        const source = d3.select(this).property("value");
+                        if (this.checked) {
+                            selectedSources.push(source);
+                        } else {
+                            selectedSources = selectedSources.filter(d => d !== source);
+                        }
+                        renderHeatmap(selectedSources);
+                    });
+
+                // Add checkboxes for filtering data to Manuscript B
+                const manuscriptb = d3.select("#manuscriptb")
                     .selectAll("input")
                     .data(["B8", "B9-11", "M", "N", "R", "S", "T", "AI", "BA", "BB", "BC", "BD", "BE", "BF"]) // Include only desired values
                     .enter()
@@ -399,11 +466,55 @@
                         }
                         renderHeatmap(selectedSources);
                     });
+                
+                // Add checkboxes for filtering data to Manuscript C
+                const manuscriptc = d3.select("#manuscriptc")
+                    .selectAll("input")
+                    .data(["J","K","L","P","Q","U","W","X","Y","Z","AA","AB","AC","AE","AF","AG","AH","AL","AM","AN","AO","AQ","AR","AS","AT","AU","AV","AX","AY","BH","af"]) // Include only desired values
+                    .enter()
+                    .append("label")
+                    .text(d => d)
+                    .append("input")
+                    .attr("type", "checkbox")
+                    .attr("class", "filter-checkbox")
+                    .attr("value", d => d)
+                    .property("checked", d => selectedSources.includes(d))
+                    .on("change", function () {
+                        const source = d3.select(this).property("value");
+                        if (this.checked) {
+                            selectedSources.push(source);
+                        } else {
+                            selectedSources = selectedSources.filter(d => d !== source);
+                        }
+                        renderHeatmap(selectedSources);
+                    });
 
-                // Add checkboxes for filtering data to card 3
+                // Add checkboxes for filtering data to Manuscript D
+                const manuscriptd = d3.select("#manuscriptd")
+                    .selectAll("input")
+                    .data(["C","O","V","AD","AK","AP","AW"]) // Include only desired values
+                    .enter()
+                    .append("label")
+                    .text(d => d)
+                    .append("input")
+                    .attr("type", "checkbox")
+                    .attr("class", "filter-checkbox")
+                    .attr("value", d => d)
+                    .property("checked", d => selectedSources.includes(d))
+                    .on("change", function () {
+                        const source = d3.select(this).property("value");
+                        if (this.checked) {
+                            selectedSources.push(source);
+                        } else {
+                            selectedSources = selectedSources.filter(d => d !== source);
+                        }
+                        renderHeatmap(selectedSources);
+                    });
+
+                // Add checkboxes for filtering data to Excerpts
                 const excerpts = d3.select("#excerpts")
                     .selectAll("input")
-                    .data(["a", "b", "c", "d", "e", "f", "g", "h", "i", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "aa", "ab", "ac", "ad", "ae", "af", "ag", "ah", "ai", "aj", "ak", "al", "am"]) // Include only desired values
+                    .data(["a", "b", "c", "d", "e", "f", "g", "h", "i", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "aa", "ab", "ac", "ad", "ae", "ag", "ah", "ai", "aj", "ak", "al", "am"]) // Include only desired values
                     .enter()
                     .append("label")
                     .text(d => d)
