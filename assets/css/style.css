@@ -183,3 +183,10 @@ table{
     width: 100%;
 }
 
+label {
+    padding: 3px;
+}
+
+input.filter-checkbox {
+    margin-left: 3px;
+}
