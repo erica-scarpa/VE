@@ -40,25 +40,25 @@ The joined [[EBK-A]] (acrographic list EBK-A) includes 1170 words (Archi, 'Publi
 | [[EBK-B16]]  | *M* 15, 22 | TM.75.G.5629  |
 | [[EBK-B17]]  | *M* 15, 23 | TM.75.G.6012  |
 
-## Acrographic manuscript B ([[EBK-C]])
+## Other sources
 
 | Abbreviation | Edition    | Inv. no.                  |
 | ------------ | ---------- | ------------------------- |
 | [[EBK-C1]]   | *M* 15, 24 | TM.75.G.3043              |
 | [[EBK-C2]]   | *M* 15, 25 | TM.75.G.2002              |
 | [[EBK-C3]]   | *M* 15, 26 | TM.75.G.1926              |
-| [[EBK-C4]]   | *M* 15, 27 | TM.75.G.3040+75.3046      |
+| [[EBK-C4]]   | *M* 15, 27 | TM.75.G.3040+TM.75.G.3046 |
 
-## Acrographic manuscript B ([[EBK-D]])
+## Excerpts
 
 | Abbreviation | Edition    | Inv. no.     | Other     |
 | ------------ | ---------- | ------------ | --------- |
-| EBK.D1       | *M* 15, 28 | TM.75.G.1304 |           |
-| EBK.D2       | *M* 15, 29 | TM.75.G.2414 |           |
+| [[EBK-D1]]   | *M* 15, 28 | TM.75.G.1304 |           |
+| [[EBK-D2]]   | *M* 15, 29 | TM.75.G.2414 |           |
 | EBK.D3       | *M* 15, 30 | TM.75.G.2049 | eEBK-a~1~ |
 | EBK.D4       | *M* 15, 31 | TM.75.G.2348 | eEBK-a~2~ |
 
-## Acrographic manuscript B ([[EBK-E]])
+## Excerpts or sources
 
 | Abbreviation | Edition    | Inv. no.     |
 | ------------ | ---------- | ------------ |
@@ -70,7 +70,7 @@ The joined [[EBK-A]] (acrographic list EBK-A) includes 1170 words (Archi, 'Publi
 | EBK.E6       | *M* 15, 37 | TM.75.G.5287 |
 | EBK.E7       | *M* 15, 38 | TM.75.G.3130 |
 
-## Acrographic manuscript B ([[EBK-F]])
+## Irregular acrographic texts
 
 | Abbreviation | Edition    | Inv. no.      | Other                 |
 | ------------ | ---------- | ------------- | --------------------- |
@@ -84,27 +84,14 @@ The joined [[EBK-A]] (acrographic list EBK-A) includes 1170 words (Archi, 'Publi
 | EBK.F8       | *M* 15, 46 | TM.75.G.3430  |                       |
 | EBK.F9       | *M* 15, 47 | TM.75.G.4296  |                       |
 
-## Acrographic manuscript B ([[EBK-G]])
 
-| Abbreviation | Edition    | Inv. no.                  |
-| ------------ | ---------- | ------------------------- |
-| EBK.G1       | *M* 15, 48 | TM.75.G.5311              |
-| EBK.G2       | *M* 15, 49 | TM.75.G.5327              |
-| EBK.G3       | *M* 15, 50 | TM.75.G.3120              |
-| EBK.G4       | *M* 15, 51 | TM.75.G.4314+TM.75.G.4315 |
-| EBK.G5       | *M* 15, 52 | TM.75.G.5330              |
-| EBK.G6       | *M* 15, 53 | TM.75.G.5313              |
-| EBK.G7       | *M* 15, 54 | TM.75.G.5280              |
-| EBK.G8       | *M* 15, 55 | TM.75.G.5323              |
-| EBK.G9       | *M* 15, 56 | TM.75.G.5262              |
-
-## Acrographic manuscript B ([[EBK-H]])
+## Excercise
 
 | Abbreviation | Edition    | Inv. no.                  |
 | ------------ | ---------- | ------------------------- |
 | EBK.H1       | *M* 15, 57 | TM.75.G.5194+TM.75.G.5200 |
 
-## Acrographic manuscript B ([[EBK-I]])
+## Fragments of EBK-A parallel manuscript
 
 | Abbreviation | Edition    | Inv. no.      |
 | ------------ | ---------- | ------------- |
@@ -112,7 +99,7 @@ The joined [[EBK-A]] (acrographic list EBK-A) includes 1170 words (Archi, 'Publi
 | EBK.I2       | *M* 15, 59 | TM.75.G.3176a |
 | EBK.I3       | *M* 15, 60 | TM.75.G.3438  |
 
-## Acrographic manuscript B ([[EBK-J    ]])
+## Fragments of acrographic list, NI section
 
 | Abbreviation | Edition    | Inv. no.      |
 | ------------ | ---------- | ------------- |
@@ -126,7 +113,7 @@ The joined [[EBK-A]] (acrographic list EBK-A) includes 1170 words (Archi, 'Publi
 | EBK.J8       | *M* 15, 68 | TM.75.G.20276 |
 | EBK.J9       | *M* 15, 69 | TM.75.G.4559  |
 
-## Acrographic manuscript B ([[EBK-K]])
+## Fragments of acrographic list,GIŠ section
 
 | Abbreviation | Edition    | Inv. no.      |
 | ------------ | ---------- | ------------- |
@@ -136,17 +123,16 @@ The joined [[EBK-A]] (acrographic list EBK-A) includes 1170 words (Archi, 'Publi
 | EBK.K4       | *M* 15, 73 | TM.75.G.20307 |
 | EBK.K5       | *M* 15, 74 | TM.75.G.20124 |
 
-## Acrographic manuscript B ([[EBK-E]])
+## Fragments of acrographic list
 
 Fragment L4 has been recognized as part of the ED Fish list.
 
-| Abbreviation | Edition    | Inv. no.      | Other                    |
-| ------------ | ---------- | ------------- | ------------------------ |
-| EBK.L1       | *M* 15, 75 | TM.75.G.20566 |                          |
-| EBK.L2       | *M* 15, 76 | TM.75.G.4545  |                          |
-| EBK.L3       | *M* 15, 77 | TM.75.G.20123 |                          |
-| EBK.L5       | *M* 15, 79 | TM.75.G.11256 |                          |
-| EBK.M1       | *M* 15, 80 | TM.75.G.2260  |                          |
+| Abbreviation | Edition    | Inv. no.      | 
+| ------------ | ---------- | ------------- | 
+| EBK.L1       | *M* 15, 75 | TM.75.G.20566 |   
+| EBK.L2       | *M* 15, 76 | TM.75.G.4545  | 
+| EBK.L3       | *M* 15, 77 | TM.75.G.20123 | 
+| EBK.L5       | *M* 15, 79 | TM.75.G.11256 | 
 
 
 
@@ -155,6 +141,12 @@ Fragment L4 has been recognized as part of the ED Fish list.
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
 [EBK-A]: EBK-A "MEE 4, 115 +"
+[EBK-C1]: EBK-C1 "MEE 15 24 = TM.75.G.3043"
+[EBK-C2]: ebk-c2 "MEE 15 25 = TM.75.G.2002"
+[EBK-C3]: ebk-c3 "MEE 15 26 = TM.75.G.1926"
+[EBK-C4]: EBK-C4 "MEE 15 27 = TM.75.G.3040+TM.75.G.3046"
+[EBK-D1]: EBK-D1 "EBK-D1"
+[EBK-D2]: EBK-D2 "EBK-D2"
 [EBK-E1]: EBK-E1 "MEE 15 32 = TM.75.G.5324"
 [EBK-F1]: EBK-F1 "MEE 15 39 = TM.75.G.3212"
 [//end]: # "Autogenerated link references"
