@@ -3,241 +3,250 @@
 <html lang="en" data-bs-theme="auto">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.111.3">
-    <title>VE</title>
-    <!-- Load d3.js -->
-    <script src="https://d3js.org/d3.v6.js"></script>
-
-    <!-- Bootstrap CDN-->
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabolario di Ebla</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <!-- Bootstrap icons -->
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-
-    <!-- css -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="https://erica-scarpa.github.io/VE/assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
 </head>
 
 <body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pzjw6+V4f9Bq1p4/KN5a4zk5TC2+ryjDMz4lO12a3fFh5lJq4Ck4Jc9PynNIbbVX"
-        crossorigin="anonymous"></script>
-    <main>
-
-        <div class="container">
-            <header
-                class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-                <div class="col-md-3 mb-2 mb-md-0">
-                    <a href="index.html" class="nav-link px-2 link-active" aria-current="page"></a><img src="attachments/logo.svg" height="50px">
+    <div class="container">
+        <!-- Header section -->
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <!-- Logo -->
+            <div class="col-md-3 mb-2 mb-md-0">
+                <a href="index.html" class="nav-link px-2 link-active" aria-current="page">
+                    <img src="attachments/logo.svg" height="40px" alt="Logo">
+                </a>
+            </div>
+            <!-- Navigation -->
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <!-- Home -->
+                <li><a href="index.html" class="nav-link px-2 link-active" aria-current="page">Home</a></li>
+                <!-- Sources and Manuscripts Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Sources and Manuscripts
                     </a>
-                </div>
-            <title>Vocabolario di Ebla</title>
-                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="index.html" class="nav-link px-2 link-active" aria-current="page">Home</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Sources and Manuscripts
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Bilingual.html">Bilingual Sources</a></li>
-                            <li><a class="dropdown-item" href="Unilingual.html">Unilingual Sources</a></li>
-                            <li><a class="dropdown-item" href="Acrographic.html">Acrographic Sources</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item nav-link" href="Bilingual.html">Bilingual Sources</a></li>
+                        <li><a class="dropdown-item nav-link" href="Unilingual.html">Unilingual Sources</a></li>
+                        <li><a class="dropdown-item nav-link" href="Acrographic.html">Acrographic Sources</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li> <!-- Divider -->
+                        <li><a class="dropdown-item nav-link" href="Bilingual Manuscripts.html">Bilingual
+                                Manuscripts</a></li>
+                        <li><a class="dropdown-item nav-link" href="Acrographic Manuscripts.html">Acrographic
+                                Manuscripts</a></li>
+                    </ul>
+                </li>
+                <!-- Synopsis Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Synopsis
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item nav-link" href="Synopsis.html">Synopsis of the VE</a></li>
+                        <li><a class="dropdown-item nav-link" href="Chart.html">Chart of the VE</a></li>
+                    </ul>
+                </li>
+                <!-- More Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        More
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item nav-link" href="Roots.html">Roots</a></li>
+                        <li><a class="dropdown-item nav-link" href="Credits.html">Credits</a></li>
+                        <li><a class="dropdown-item nav-link" href="https://github.com/erica-scarpa/VE">Github
+                                repository</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+    </div>
 
-                            <li><a class="dropdown-item" href="Bilingual Manuscripts.html">Bilingual Manuscripts</a></li>
-                            <li><a class="dropdown-item" href="Acrographic Manuscripts.html">Acrographic Manuscripts</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Synopsis
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Synopsis.html">Synopsis of the VE</a></li>
-                            <li><a class="dropdown-item" href="Chart.html">Chart of the VE</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            More
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Roots.html">Roots</a></li>
-                            <li><a class="dropdown-item" href="Credits.html">Credits</a></li>
-                            <li><a class="dropdown-item" href="https://github.com/erica-scarpa/VE">Github repository</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            
-            </header>
-        </div>
-
-        <main>
-            <div class="flex-shrink-0" id="maintable">
-                <div class="container">
-<a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-    aria-controls="offcanvasExample">
-    Filter data
-    </a>
+    <main>
+        <div class="flex-shrink-0" id="maintable">
+            <div class="container">
+                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    Filter data
+                </a>
 
 
-            <!-- Main table -->
+                <!-- Main table -->
 
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Filter data</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div class="container mt-5">
-                                            <p>Check a box to visualize the corresponding source in the chart. If the source does not appear, it means no data
-                                                referred to it is currently available.</p>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Filter data</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="container mt-5">
+                            <p>Check a box to visualize the corresponding source in the chart. If the source does not
+                                appear, it means no data
+                                referred to it is currently available.</p>
 
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="card mb-3" style="max-width: 540px;">
-                                    <div class="row g-0">
-            
-                                        <div class="col-md-12">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Manuscript A-1</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Filter according to sources of Manuscript A-1</h6>
-                                                <div id="checkboxes1"></div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="row g-0">
+
+                                            <div class="col-md-12">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Manuscript A-1</h5>
+                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Filter according
+                                                        to sources of Manuscript A-1</h6>
+                                                    <div id="checkboxes1"></div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="card mb-3" style="max-width: 540px;">
-                                    <div class="row g-0">
-            
-                                        <div class="col-md-12">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Manuscript B</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2</h6>
-                                                <div id="checkboxes2"></div>
+                                <div class="col-md-12">
+                                    <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="row g-0">
+
+                                            <div class="col-md-12">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Manuscript B</h5>
+                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2
+                                                    </h6>
+                                                    <div id="checkboxes2"></div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="card mb-3" style="max-width: 540px;">
-                                    <div class="row g-0">
-                            
-                                        <div class="col-md-12">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Bilingual excerpts</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2</h6>
-                                                <div id="excerpts"></div>
+                                <div class="col-md-12">
+                                    <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="row g-0">
+
+                                            <div class="col-md-12">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Bilingual excerpts</h5>
+                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2
+                                                    </h6>
+                                                    <div id="excerpts"></div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Repeat the above two blocks for the other two cards -->
                             </div>
-                            <!-- Repeat the above two blocks for the other two cards -->
                         </div>
                     </div>
                 </div>
-            </div>
 
                 <div class="flex-shrink-0" id="maintable">
                     <div id="checkboxes">
                         <!-- Checkboxes for filtering data -->
-                        
+
                         <!-- Add more checkboxes for other source values as needed -->
                     </div>
 
-                                        <div id="my_dataviz"></div>
-                                </div>
+                    <div id="my_dataviz"></div>
+                </div>
 
-    </div>
-    </div>
-        </main>
-
-        <!-- Footer -->
-        <div class="flex-shrink-0 bg-light">
-            <div class="container">
-                <footer class="py-5">
-                    <div class="row">
-        
-                        <div class="col-6 col-md-6 mb-3">
-                            <a class="d-inline-flex align-items-center mb-2 text-body-secondary text-decoration-none" href="/"
-                                aria-label="Bootstrap">
-                                <img src="attachments/logo.svg" height="45px">&nbsp;
-                            </a>
-                            <span class="fs-5">Synopsis of the <i>Vocabolario di Ebla</i></span>
-        
-                            <h5>Links</h5>
-                            <ul class="list-unstyled small">
-                                <li class="mb-2"><a href="http://ebda.cnr.it/" target="_blank">Ebla Digital Archives</a></li>
-                                <li class="mb-2"><a href="https://www.sagas.unifi.it/vp-337-archive.html"
-                                        target="_blank">Prosopography
-                                        of
-                                        Ebla</a></li>
-                                <li class="mb-2"><a href="http://oracc.museum.upenn.edu/dcclt/corpus" target="_blank">DCCLT</a>
-                                </li>
-                                <li class="mb-2"><a href="https://cdli.mpiwg-berlin.mpg.de/" target="_blank">cdli</a></li>
-        
-                            </ul>
-                            <ul class="list-unstyled small">
-                                <li class="mb-2">Designed and built with 🩷 by <a rel="cc:attributionURL dct:creator"
-                                        property="cc:attributionName" href="https://erica-scarpa.github.io">Erica Scarpa</a> and
-                                    licensed
-                                    under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
-                                        target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC
-                                        BY-NC-SA 4.0</a>.</li>
-                                <il class="mb-2">Built with <a href="https://blog.getbootstrap.com" target="_blank">Bootstrap
-                                        5</a>, <a href="https://foambubble.github.io/" target="_blank">Foam</a> and <a
-                                        href="https://d3js.org" target="_blank">D3.js</a>. Heatmap template from <a
-                                        href="https://d3-graph-gallery.com/heatmap" target="_blank">D3.js Graph Gallery</a>.
-                                </il>
-                                <il class="mb-2"><a href="https://icons.getbootstrap.com" target="_blank">Bootstrap</a> and <a
-                                        href="https://fontawesome.com" target="_blank">Fontawesome</a> icons.</il>
-                                <li class="mb-2"><svg height="12px" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                                        <path
-                                            d="M246.9 23.7C242.3 6.6 224.8-3.5 207.7 1.1s-27.2 22.1-22.6 39.2L238 237.8c2.5 9.2-4.5 18.2-14 18.2c-6.4 0-12-4.2-13.9-10.3L166.6 102.7c-5.1-16.9-23-26.4-39.9-21.3s-26.4 23-21.3 39.9l62.8 206.4c2.4 7.9-7.2 13.8-13.2 8.1L99.6 283c-16-15.2-41.3-14.6-56.6 1.4s-14.6 41.3 1.4 56.6L156.8 448c43.1 41.1 100.4 64 160 64h10.9 8.2c.1 0 .1-.1 .1-.1s.1-.1 .1-.1c58.3-3.5 108.6-43.2 125.3-99.7l81.2-275c5-16.9-4.7-34.7-21.6-39.8s-34.7 4.7-39.8 21.6L443.5 247.1c-1.6 5.3-6.4 8.9-12 8.9c-7.9 0-13.8-7.3-12.2-15.1l36-170.3c3.7-17.3-7.4-34.3-24.7-37.9s-34.3 7.4-37.9 24.7L355.1 235.1c-2.6 12.2-13.3 20.9-25.8 20.9c-11.9 0-22.4-8-25.4-19.5l-57-212.8z" />
-                                    </svg></li>
-                            </ul>
-        
-                        </div>
-        
-        
-        
-                        <div class="col-md-4 offset-md-1 mb-3">
-        
-                            <h5>Noticed something wrong?</h5>
-                            Let me know: <a href="mailto:">erica.scarpa@gmail.com</a><br>
-                            <h3> <a href="https://github.com/erica-scarpa" target="_blank"><i class="bi bi-github"></i></a>
-                                <a href="https://mastodon.social/@erica_scarpa" target="_blank"><i
-                                        class="fa-brands fa-mastodon"></i></a>
-                                <a href="https://erica-scarpa.github.io" target="_blank"><i class="bi bi-house"></i></a>
-                            </h3>
-                            </a>
-        
-                        </div>
-                    </div>
-                </footer>
             </div>
         </div>
-        
-        <script>
+    </main>
 
-       function renderHeatmap(selectedSources) {
+    <!-- Footer -->
+    <div class="flex-shrink-0 bg-light">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+
+                    <div class="col-6 col-md-6 mb-3">
+                        <a class="d-inline-flex align-items-center mb-2 text-body-secondary text-decoration-none"
+                            href="/" aria-label="Bootstrap">
+                            <img src="attachments/logo.svg" height="45px">&nbsp;
+                        </a>
+                        <span class="fs-5">Synopsis of the <i>Vocabolario di Ebla</i></span>
+
+                        <h5>Links</h5>
+                        <ul class="list-unstyled small">
+                            <li class="mb-2"><a href="http://ebda.cnr.it/" target="_blank">Ebla Digital Archives</a>
+                            </li>
+                            <li class="mb-2"><a href="https://www.sagas.unifi.it/vp-337-archive.html"
+                                    target="_blank">Prosopography
+                                    of
+                                    Ebla</a></li>
+                            <li class="mb-2"><a href="http://oracc.museum.upenn.edu/dcclt/corpus"
+                                    target="_blank">DCCLT</a>
+                            </li>
+                            <li class="mb-2"><a href="https://cdli.mpiwg-berlin.mpg.de/" target="_blank">cdli</a></li>
+
+                        </ul>
+                        <ul class="list-unstyled small">
+                            <li class="mb-2">Designed and built with 🩷 by <a rel="cc:attributionURL dct:creator"
+                                    property="cc:attributionName" href="https://erica-scarpa.github.io">Erica Scarpa</a>
+                                and
+                                licensed
+                                under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+                                    target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC
+                                    BY-NC-SA 4.0</a>.</li>
+                            <il class="mb-2">Built with <a href="https://blog.getbootstrap.com"
+                                    target="_blank">Bootstrap
+                                    5</a>, <a href="https://foambubble.github.io/" target="_blank">Foam</a> and <a
+                                    href="https://d3js.org" target="_blank">D3.js</a>. Heatmap template from <a
+                                    href="https://d3-graph-gallery.com/heatmap" target="_blank">D3.js Graph Gallery</a>.
+                            </il>
+                            <il class="mb-2"><a href="https://icons.getbootstrap.com" target="_blank">Bootstrap</a> and
+                                <a href="https://fontawesome.com" target="_blank">Fontawesome</a> icons.</il>
+                            <li class="mb-2"><svg height="12px" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M246.9 23.7C242.3 6.6 224.8-3.5 207.7 1.1s-27.2 22.1-22.6 39.2L238 237.8c2.5 9.2-4.5 18.2-14 18.2c-6.4 0-12-4.2-13.9-10.3L166.6 102.7c-5.1-16.9-23-26.4-39.9-21.3s-26.4 23-21.3 39.9l62.8 206.4c2.4 7.9-7.2 13.8-13.2 8.1L99.6 283c-16-15.2-41.3-14.6-56.6 1.4s-14.6 41.3 1.4 56.6L156.8 448c43.1 41.1 100.4 64 160 64h10.9 8.2c.1 0 .1-.1 .1-.1s.1-.1 .1-.1c58.3-3.5 108.6-43.2 125.3-99.7l81.2-275c5-16.9-4.7-34.7-21.6-39.8s-34.7 4.7-39.8 21.6L443.5 247.1c-1.6 5.3-6.4 8.9-12 8.9c-7.9 0-13.8-7.3-12.2-15.1l36-170.3c3.7-17.3-7.4-34.3-24.7-37.9s-34.3 7.4-37.9 24.7L355.1 235.1c-2.6 12.2-13.3 20.9-25.8 20.9c-11.9 0-22.4-8-25.4-19.5l-57-212.8z" />
+                                </svg></li>
+                        </ul>
+
+                    </div>
+
+
+
+                    <div class="col-md-4 offset-md-1 mb-3">
+
+                        <h5>Noticed something wrong?</h5>
+                        Let me know: <a href="mailto:">erica.scarpa@gmail.com</a><br>
+                        <h3> <a href="https://github.com/erica-scarpa" target="_blank"><i class="bi bi-github"></i></a>
+                            <a href="https://mastodon.social/@erica_scarpa" target="_blank"><i
+                                    class="fa-brands fa-mastodon"></i></a>
+                            <a href="https://erica-scarpa.github.io" target="_blank"><i class="bi bi-house"></i></a>
+                        </h3>
+                        </a>
+
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+
+        function renderHeatmap(selectedSources) {
             // Set the dimensions and margins of the graph
             const margin = { top: 80, right: 25, bottom: 30, left: 70, right: 550 },
                 width = window.innerWidth - margin.left - margin.right,
@@ -271,7 +280,7 @@
                         return aValue - bValue;
                     });
 
-               // Build X scales and axis according to filtered data
+                // Build X scales and axis according to filtered data
                 const xDomain = myGroups.filter(group => selectedSources.includes(group));
                 const x = d3.scaleBand()
                     .range([0, width])
@@ -350,7 +359,7 @@
                 // Add checkboxes for filtering data to card 1
                 const checkboxes1 = d3.select("#checkboxes1")
                     .selectAll("input")
-                    .data(["EBK-A", "A1", "A2", "A4-6", "A7","G","H","I"]) // Include only desired values
+                    .data(["EBK-A", "A1", "A2", "A4-6", "A7", "G", "H", "I"]) // Include only desired values
                     .enter()
                     .append("label")
                     .text(d => d)
@@ -369,10 +378,10 @@
                         renderHeatmap(selectedSources);
                     });
 
-                 // Add checkboxes for filtering data to card 2
+                // Add checkboxes for filtering data to card 2
                 const checkboxes2 = d3.select("#checkboxes2")
                     .selectAll("input")
-                    .data([ "B8", "B9-11", "M", "N", "R", "S", "T", "AI", "BA", "BB", "BC", "BD", "BE", "BF"]) // Include only desired values
+                    .data(["B8", "B9-11", "M", "N", "R", "S", "T", "AI", "BA", "BB", "BC", "BD", "BE", "BF"]) // Include only desired values
                     .enter()
                     .append("label")
                     .text(d => d)
@@ -391,10 +400,10 @@
                         renderHeatmap(selectedSources);
                     });
 
-                 // Add checkboxes for filtering data to card 3
+                // Add checkboxes for filtering data to card 3
                 const excerpts = d3.select("#excerpts")
                     .selectAll("input")
-                    .data(["a", "b", "c", "d", "e", "f", "g", "h", "i", "l", "m", "n", "o", "p","q","r","s","t","u","v","w","x","y","z","aa","ab","ac","ad","ae","af","ag","ah","ai","aj","ak","al","am"]) // Include only desired values
+                    .data(["a", "b", "c", "d", "e", "f", "g", "h", "i", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "aa", "ab", "ac", "ad", "ae", "af", "ag", "ah", "ai", "aj", "ak", "al", "am"]) // Include only desired values
                     .enter()
                     .append("label")
                     .text(d => d)
@@ -413,7 +422,7 @@
                         renderHeatmap(selectedSources);
                     });
 
-// Repeat the above block for other cards if needed
+                // Repeat the above block for other cards if needed
 
                 // Add the squares with filtered data
                 svg.selectAll(".heatmap-square")
@@ -466,7 +475,7 @@
         });
 
 
-        </script>
+    </script>
 
 </body>
 

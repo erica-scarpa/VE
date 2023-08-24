@@ -21,6 +21,10 @@ body {
     color: black;
 }
 
+btn:visited {
+    color: #fff;
+}
+
 a {
     color: #dd5f6d;
     text-decoration: none;
