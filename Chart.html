@@ -26,7 +26,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
         crossorigin="anonymous"></script>
-
+    <style>
+        label{
+            padding: 3px;
+        }
+        input.filter-checkbox{
+            margin-left: 3px;
+        }
+    </style>
 </head>
 
 <body>
@@ -86,14 +93,87 @@
         </div>
 
         <main>
+            <div class="flex-shrink-0" id="maintable">
+                <div class="container">
+<a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+    aria-controls="offcanvasExample">
+    Filter data
+    </a>
+
 
             <!-- Main table -->
 
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Filter data</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="container mt-5">
+                                            <p>Check a box to visualize the corresponding source in the chart. If the source does not appear, it means no data
+                                                referred to it is currently available.</p>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+            
+                                        <div class="col-md-12">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Manuscript A-1</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">Filter according to sources of Manuscript A-1</h6>
+                                                <div id="checkboxes1"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+            
+                                        <div class="col-md-12">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Manuscript B</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2</h6>
+                                                <div id="checkboxes2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                            
+                                        <div class="col-md-12">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Bilingual excerpts</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2</h6>
+                                                <div id="excerpts"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Repeat the above two blocks for the other two cards -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
                 <div class="flex-shrink-0" id="maintable">
+                    <div id="checkboxes">
+                        <!-- Checkboxes for filtering data -->
+                        
+                        <!-- Add more checkboxes for other source values as needed -->
+                    </div>
+
                                         <div id="my_dataviz"></div>
                                 </div>
 
-
+    </div>
+    </div>
         </main>
 
         <!-- Footer -->
@@ -162,129 +242,207 @@
                 </footer>
             </div>
         </div>
-
-        <!-- Datatables code -->
-        
-        <script src="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.13.4/b-2.3.6/cr-1.6.2/r-2.4.1/datatables.min.js"></script>
         
         <script>
 
-            // set the dimensions and margins of the graph
-                const margin = { top: 80, right: 25, bottom: 30, left: 70 },
-                    width = window.innerWidth - margin.left - margin.right,
-                    height = 750 - margin.top - margin.bottom;
+       function renderHeatmap(selectedSources) {
+            // Set the dimensions and margins of the graph
+            const margin = { top: 80, right: 25, bottom: 30, left: 70, right: 550 },
+                width = window.innerWidth - margin.left - margin.right,
+                height = 750 - margin.top - margin.bottom;
 
-                // append the svg object to the body of the page
-                const svg = d3.select("#my_dataviz")
-                    .append("svg")
-                    .attr("width", width + margin.left + margin.right)
-                    .attr("height", height + margin.top + margin.bottom)
-                    .append("g")
-                    .attr("transform", `translate(${margin.left}, ${margin.top})`);
+            // Remove existing SVG
+            d3.select("#my_dataviz svg").remove();
 
-                //Read the data
-                d3.csv("https://raw.githubusercontent.com/erica-scarpa/VE/master/assets/dataset.csv").then(function (data) {
+            // Append the svg object to the body of the page
+            const svg = d3.select("#my_dataviz")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-                    // Labels of row and columns -> unique identifier of the column called 'lemma' and 'source'
-                    const myGroups = ["EBK-A", "A1","A2", "A4-6","A7","B8","B9-11","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","X","Y","Z","AA","AB","AC","AD","AE","AF","AG","AH","AI","AJ","AK","AL","AM","AN","AO","AP","AQ","AR","AS","AT","AU","AV","AW","AX","AY","AZ","BA","BB","BC","BD","BE","BF","BG","BH","a","b","c","d","e","f","g","h","i","l","m","n","o","p","q","r","s", "ak","v","A III 683"]; // Define the desired order of sources
-                    const myVars = Array.from(new Set(data.map(d => d.lemma)))
-                    const orderedVars = Array.from(new Set(data.map(d => d.lemma)))
-                        .sort((a, b) => {
-                            const aValue = parseInt(data.find(d => d.lemma === a).order);
-                            const bValue = parseInt(data.find(d => d.lemma === b).order);
-                            return aValue - bValue;
-                        });
-                    // Build X scales and axis:
-                    const x = d3.scaleBand()
-                        .range([0, width])
-                        .domain(myGroups) // Use the custom order for the domain
-                        .padding(0.05);
-                    svg.append("g")
-                        .style("font-size", 12)
-                        .attr("transform", `translate(0, ${height})`)
-                        .call(d3.axisBottom(x).tickSize(0))
-                        .select(".domain").remove()
+            // Read the data
+            d3.csv("https://raw.githubusercontent.com/erica-scarpa/VE/master/assets/dataset.csv").then(function (data) {
+                // Create an array to keep track of selected sources
+                if (!selectedSources) {
+                    selectedSources = ["EBK-A", "A1", "A2", "A4-6", "A7", "B8", "B9-11", "C", "D", "E", "F", "G", "H", "I", "J", "K",]; // Default selection
+                }
 
-                    // Build Y scales and axis:
-                    const y = d3.scaleBand()
-                        .range([height, 0])
-                        .domain(orderedVars)
-                        .padding(0.05);
-                    svg.append("g")
-                        .style("font-size", 12)
-                        .call(d3.axisLeft(y).tickSize(0))
-                        .select(".domain").remove();
+                // Labels of row and columns -> unique identifier of the column called 'lemma' and 'source'
+                const myGroups = ["EBK-A", "A1", "A2", "A4-6", "A7", "B8", "B9-11", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "a", "b", "c", "d", "e", "f", "g", "h", "i", "l", "m", "n", "o", "p", "q", "r", "s", "ak", "v", "A III 683"];
+                const myVars = Array.from(new Set(data.map(d => d.lemma)));
+                const orderedVars = Array.from(new Set(data.map(d => d.lemma)))
+                    .sort((a, b) => {
+                        const aValue = parseInt(data.find(d => d.lemma === a).order);
+                        const bValue = parseInt(data.find(d => d.lemma === b).order);
+                        return aValue - bValue;
+                    });
 
-                    // Build color scale
-                    const myColor = d3.scaleOrdinal()
-                        .range(["#ffcc66", "#66ff99", "#ff66cc", "#ff99cc"]) // Define your custom color range
+               // Build X scales and axis according to filtered data
+                const xDomain = myGroups.filter(group => selectedSources.includes(group));
+                const x = d3.scaleBand()
+                    .range([0, width])
+                    .domain(xDomain)
+                    .padding(0.05);
+
+                svg.append("g")
+                    .style("font-size", 12)
+                    .attr("transform", `translate(0, ${height})`)
+                    .call(d3.axisBottom(x).tickSize(0))
+                    .selectAll(".tick text")
+                    .attr("class", "show-tick"); // Apply class to show all ticks
+
+                svg.selectAll(".tick text")
+                    .filter(d => !selectedSources.includes(d))
+                    .attr("class", "hide-tick"); // Apply class to hide unselected ticks
+
+                svg.selectAll(".tick line").remove(); // Remove tick lines
 
 
-                    // create a tooltip
-                    const tooltip = d3.select("#my_dataviz")
-                        .append("div")
-                        .style("opacity", 0)
-                        .attr("class", "tooltip")
-                        .style("background-color", "white")
-                        .style("border", "solid")
-                        .style("border-width", "2px")
-                        .style("border-radius", "5px")
-                        .style("padding", "5px")
+                // Build Y scales and axis
+                const y = d3.scaleBand()
+                    .range([height, 0])
+                    .domain(orderedVars)
+                    .padding(0.05);
+                svg.append("g")
+                    .style("font-size", 12)
+                    .call(d3.axisLeft(y).tickSize(0))
+                    .select(".domain").remove();
 
-                    // Three function that change the tooltip when user hover / move / leave a cell
-                    const mouseover = function (event, d) {
-                        tooltip
-                            .style("opacity", 1)
-                        d3.select(this)
-                            .style("stroke", "black")
-                            .style("opacity", 1)
-                    }
-                    const mousemove = function (event, d) {
-                        const tooltipWidth = tooltip.node().getBoundingClientRect().width;
-                        const tooltipHeight = tooltip.node().getBoundingClientRect().height;
+                // Build color scale
+                const myColor = d3.scaleOrdinal()
+                    .range(["#ffcc66", "#66ff99", "#ff66cc", "#ff99cc"]);
 
-                        const offsetX = 10; // Adjust this value to control the distance from the cursor horizontally
-                        const offsetY = 10; // Adjust this value to control the distance from the cursor vertically
+                // Create a tooltip
+                const tooltip = d3.select("#my_dataviz")
+                    .append("div")
+                    .style("opacity", 0)
+                    .attr("class", "tooltip")
+                    .style("background-color", "white")
+                    .style("border", "solid")
+                    .style("border-width", "2px")
+                    .style("border-radius", "5px")
+                    .style("padding", "5px");
 
-                        const tooltipX = event.clientX + offsetX;
-                        const tooltipY = event.clientY + offsetY;
+                // Tooltip and mouse event functions
+                const mouseover = function (event, d) {
+                    tooltip.style("opacity", 1);
+                    d3.select(this)
+                        .style("stroke", "black")
+                        .style("opacity", 1);
+                };
+                const mousemove = function (event, d) {
+                    const tooltipWidth = tooltip.node().getBoundingClientRect().width;
+                    const tooltipHeight = tooltip.node().getBoundingClientRect().height;
 
-                        tooltip
-                            .html("<b>" + d.lemma + "</b>" +
-                                "<br>" + d.sumerian + " / " + d.gloss +
-                                "<br><b>Source</b>: " + d.source 
-                            )
-                            .style("left", tooltipX + "px")
-                            .style("top", tooltipY + "px");
-                    }
-                    const mouseleave = function (event, d) {
-                        tooltip
-                            .style("opacity", 0)
-                        d3.select(this)
-                            .style("stroke", "none")
-                            .style("opacity", 0.8)
-                    }
+                    const offsetX = 10;
+                    const offsetY = 10;
 
-                    // add the squares
-                    svg.selectAll()
-                        .data(data, function (d) { return d.source + ':' + d.lemma; })
-                        .join("a") // Wrap the squares in <a> elements to make them clickable
-                        .attr("xlink:href", function (d) { return "https://erica-scarpa.github.io/VE/" + d.lemma; }) // Set the link URL
-                        .append("rect") // Now append the rectangle to the <a> element
-                        .attr("x", function (d) { return x(d.source) })
-                        .attr("y", function (d) { return y(d.lemma) })
-                        .attr("rx", 4)
-                        .attr("ry", 4)
-                        .attr("width", x.bandwidth())
-                        .attr("height", y.bandwidth())
-                        .style("fill", function (d) { return myColor(d.squareColor); }) // Use the squareColor property for color
-                        .style("stroke-width", 4)
+                    const tooltipX = event.clientX + offsetX;
+                    const tooltipY = event.clientY + offsetY;
+
+                    tooltip.html("<b>" + d.lemma + "</b>" +
+                        "<br>" + d.sumerian + " / " + d.gloss +
+                        "<br><b>Source</b>: " + d.source)
+                        .style("left", tooltipX + "px")
+                        .style("top", tooltipY + "px");
+                };
+                const mouseleave = function (event, d) {
+                    tooltip.style("opacity", 0);
+                    d3.select(this)
                         .style("stroke", "none")
-                        .style("opacity", 0.8)
-                        .on("mouseover", mouseover)
-                        .on("mousemove", mousemove)
-                        .on("mouseleave", mouseleave);
-                })
+                        .style("opacity", 0.8);
+                };
+
+                // Add checkboxes for filtering data to card 1
+                const checkboxes1 = d3.select("#checkboxes1")
+                    .selectAll("input")
+                    .data(["EBK-A", "A1", "A2", "A4-6", "A7","G","H","I"]) // Include only desired values
+                    .enter()
+                    .append("label")
+                    .text(d => d)
+                    .append("input")
+                    .attr("type", "checkbox")
+                    .attr("class", "filter-checkbox")
+                    .attr("value", d => d)
+                    .property("checked", d => selectedSources.includes(d))
+                    .on("change", function () {
+                        const source = d3.select(this).property("value");
+                        if (this.checked) {
+                            selectedSources.push(source);
+                        } else {
+                            selectedSources = selectedSources.filter(d => d !== source);
+                        }
+                        renderHeatmap(selectedSources);
+                    });
+
+                 // Add checkboxes for filtering data to card 2
+                const checkboxes2 = d3.select("#checkboxes2")
+                    .selectAll("input")
+                    .data([ "B8", "B9-11", "M", "N", "R", "S", "T", "AI", "BA", "BB", "BC", "BD", "BE", "BF"]) // Include only desired values
+                    .enter()
+                    .append("label")
+                    .text(d => d)
+                    .append("input")
+                    .attr("type", "checkbox")
+                    .attr("class", "filter-checkbox")
+                    .attr("value", d => d)
+                    .property("checked", d => selectedSources.includes(d))
+                    .on("change", function () {
+                        const source = d3.select(this).property("value");
+                        if (this.checked) {
+                            selectedSources.push(source);
+                        } else {
+                            selectedSources = selectedSources.filter(d => d !== source);
+                        }
+                        renderHeatmap(selectedSources);
+                    });
+
+                 // Add checkboxes for filtering data to card 3
+                const excerpts = d3.select("#excerpts")
+                    .selectAll("input")
+                    .data(["a", "b", "c", "d", "e", "f", "g", "h", "i", "l", "m", "n", "o", "p","q","r","s","t","u","v","w","x","y","z","aa","ab","ac","ad","ae","af","ag","ah","ai","aj","ak","al","am"]) // Include only desired values
+                    .enter()
+                    .append("label")
+                    .text(d => d)
+                    .append("input")
+                    .attr("type", "checkbox")
+                    .attr("class", "filter-checkbox")
+                    .attr("value", d => d)
+                    .property("checked", d => selectedSources.includes(d))
+                    .on("change", function () {
+                        const source = d3.select(this).property("value");
+                        if (this.checked) {
+                            selectedSources.push(source);
+                        } else {
+                            selectedSources = selectedSources.filter(d => d !== source);
+                        }
+                        renderHeatmap(selectedSources);
+                    });
+
+// Repeat the above block for other cards if needed
+
+                // Add the squares with filtered data
+                svg.selectAll(".heatmap-square")
+                    .data(data.filter(d => selectedSources.includes(d.source)), function (d) { return d.source + ':' + d.lemma; })
+                    .join("a")
+                    .attr("xlink:href", function (d) { return "https://erica-scarpa.github.io/VE/" + d.lemma; })
+                    .append("rect")
+                    .attr("x", function (d) { return x(d.source); })
+                    .attr("y", function (d) { return y(d.lemma); })
+                    .attr("rx", 4)
+                    .attr("ry", 4)
+                    .attr("width", x.bandwidth())
+                    .attr("height", y.bandwidth())
+                    .attr("class", "heatmap-square") // Add class for updating
+                    .style("fill", function (d) { return myColor(d.squareColor); })
+                    .style("stroke-width", 4)
+                    .style("stroke", "none")
+                    .style("opacity", 0.8)
+                    .on("mouseover", mouseover)
+                    .on("mousemove", mousemove)
+                    .on("mouseleave", mouseleave);
 
                 // Add title to graph
                 svg.append("text")
@@ -292,7 +450,7 @@
                     .attr("y", -50)
                     .attr("text-anchor", "left")
                     .style("font-size", "22px")
-                    .text("Visual synopsis of the vocabolario di Ebla");
+                    .text("");
 
                 // Add subtitle to graph
                 svg.append("text")
@@ -302,9 +460,19 @@
                     .style("font-size", "14px")
                     .style("fill", "grey")
                     .style("max-width", 400)
-                    .text(""
-                    
-                );
+                    .text("");
+            });
+        }
+
+        // Initial rendering
+        renderHeatmap();
+
+        // Handle window resize
+        window.addEventListener("resize", function () {
+            // Call the rendering function again to update dimensions
+            renderHeatmap();
+        });
+
 
         </script>
 
