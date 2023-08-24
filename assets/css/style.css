@@ -194,3 +194,7 @@ label {
 input.filter-checkbox {
     margin-left: 3px;
 }
+
+p {
+    margin-top: 20px;
+}
