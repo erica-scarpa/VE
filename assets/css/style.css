@@ -182,9 +182,9 @@ img, svg {
     }
 }
 
-table{
-    margin: 10px;
-    width: 100%;
+tbody,
+td {
+    padding-right: 30px;
 }
 
 label {
