@@ -2,7 +2,7 @@
 
 **Section**: [[Section NINDA]]
 
-**Hajouz no.**: 
+**Hajouz no.**: -
 
 ## Bilingual occurrences 
 

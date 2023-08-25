@@ -24,6 +24,7 @@ See also the page on [[acrographic lists|Acrographic]].
 | obv.I:1     | [[VE 1]]      | eš<sub>2</sub>-bar-kin<sub>5</sub>               |
 | obv.I:2     | [[VE 2]]      | nig<sub>2</sub>-tum<sub>2</sub>                  |
 | obv.II:6    | [[VE 40a]]    | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> |
+| obv.III:28  | [[VE 100]]    | nig<sub>2</sub>-gig                              |
 | obv.V:3     | [[VE 149]]    | u<sub>3</sub>-nu-gar                             |
 | obv.VI:3    | [[VE 186a-b]] | inim-di                                          |
 | obv.VI:7    | [[VE 190]]    | KA.MA                                            |
@@ -33,7 +34,7 @@ See also the page on [[acrographic lists|Acrographic]].
 | obv.XIII:24 | [[VE 530]]    | šu-šilig                                         |
 | obv.XIII:38 | [[VE 545]]    | A<sub>2</sub>.MUŠEN                              |
 | rev.VII:31  | [[VE 857]]    | gid<sub>2</sub><sup>tug₂</sup>                   |
-| rev.VIII:8  | [[VE 868]]    | [gin<sub>3</sub><sup>za</sup>]                     |
+| rev.VIII:8  | [[VE 868]]    | [gin<sub>3</sub><sup>za</sup>]                   |
 | rev.VIII:39 | [[VE 901]]    | na-⸢de<sub>5</sub>⸣                            |
 
 
@@ -43,6 +44,7 @@ See also the page on [[acrographic lists|Acrographic]].
 [VE 1]: <VE 1> "VE 1"
 [VE 2]: <VE 2> "VE 2"
 [VE 40a]: <VE 40a> "VE 40a"
+[VE 100]: <VE 100> "VE 100"
 [VE 149]: <VE 149> "VE 149"
 [VE 186a-b]: <VE 186a-b> "VE 186a-b"
 [VE 190]: <VE 190> "VE 190"
