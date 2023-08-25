@@ -7,6 +7,8 @@
   <!-- Bootstrap  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Fuse.js-->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
   <!-- ajax -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Bootstrap Icons -->
@@ -53,7 +55,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item nav-link" href="Synopsis.html">Synopsis of the VE</a></li>
-            <li><a class="dropdown-item nav-link" href="Chart.html">Chart of the VE</a></li>
+            <li><a class="dropdown-item nav-link" href="Chart.html">Visual Synopsis</a></li>
           </ul>
         </li>
         <!-- More Dropdown -->
@@ -133,3 +135,26 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
     integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
     crossorigin="anonymous"></script>
+  <!--Fuse.jx search-->
+<script>
+  const searchInput = document.querySelector('#search-input');
+    const searchResults = document.querySelector('#search-results');
+
+    // Your content index (an array of objects)
+    const contentIndex = /* ... */;
+
+    // Initialize Fuse.js
+    const fuse = new Fuse(contentIndex, {
+      keys: ['title', 'content'], // Fields to search
+    });
+
+    // Listen for user input
+    searchInput.addEventListener('input', (event) => {
+      const query = event.target.value;
+      const result = fuse.search(query);
+
+      // Display search results
+      // You can loop through `result` and render the results in `searchResults`
+    });
+
+</script>

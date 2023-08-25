@@ -1,5 +1,12 @@
 # Vocabolario di Ebla
 
+The "Vocabolario di Ebla" is a comprehensive bilingual list or glossary compiled by the scribes of the ancient city of Ebla around 2370 BCE. The list is a collection of Sumerian words and terms, with some of these also featuring translations or paraphrases in Eblaite. Philologists have identified at least four different manuscripts or "versions" of this glossary, and over the past fifty years, scholars have been engaged in reconstructing them from dozens of fragments. This extensive effort has been necessitated by the considerable destruction suffered by the archives of the royal palace due to the sack of the palace around 2367–2293 cal BCE. Consequently, documents stored in rooms like L.2769 (also referred to as the Great Archive) were significantly damaged.
+
+The Vocabolario serves as an indispensable tool for linguists, historians, and archaeologists who are dedicated to studying the Eblaite language and the ancient city itself. It plays a crucial role in enabling researchers to decode the meanings of Eblaite words, comprehend the grammatical structure of the language, and acquire insights into the vocabulary used by the people of Ebla.
+
+##
+
+
 The content is organized as follows (see sub [Synposis](https://erica-scarpa.github.io/VE/Synopsis.html)):
 * **VE**: The numbering of the notes and their glosses follows the system established by Pettinato in *MEE* 4 (1982). It is important to note that a new edition of the bilingual lexical corpus is currently being prepared (see Archi, 'Publication of the Ebla Archives' [2022], 33–34). References to the bilingual sources in ARET XIV (Archi 2023) suggest that an entirely new numbering will be introduced in the upcoming edition. However, as Pettinato's system has been used for the past thirty years, a table of concordances is highly desirable and will serve as a valuable resource for future studies.
 * **Lemma**: The order respects that of the original acrographic list (*MEE* 4, 115) on which the *Vocabolario* is based.

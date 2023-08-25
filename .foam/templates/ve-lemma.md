@@ -1,15 +1,16 @@
----
-tags: 
----
+# VE 706
 
-# VE 000
+**Section**: [[Section ]]
 
-**Section**: 
+**Hajouz no.**: -
 
-**Hajouz no.**: 
+## Bilingual occurrences
 
-|  Source(s)   |        Manuscript(s)         |                  Gloss                  |
-| ------------ | ---------------------------- | --------------------------------------- |
+| Source(s)               | Manuscript(s)      | Gloss                                                |
+| ----------------------- | ------------------ | ---------------------------------------------------- |
 
 
-¶ 
+## Monolingual occurrences
+
+| Composition(s)      | Lemma |
+| ------------------- | ----- |

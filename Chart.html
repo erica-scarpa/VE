@@ -47,9 +47,9 @@
                         <li><a class="dropdown-item nav-link" href="Bilingual.html">Bilingual Sources</a></li>
                         <li><a class="dropdown-item nav-link" href="Monolingual.html">Monolingual Sources</a></li>
                         <li><a class="dropdown-item nav-link" href="Acrographic.html">Acrographic Sources</a></li>
-                        <li>
+                        <li><!-- Divider -->
                             <hr class="dropdown-divider">
-                        </li> <!-- Divider -->
+                        </li> 
                         <li><a class="dropdown-item nav-link" href="Bilingual Manuscripts.html">Bilingual
                                 Manuscripts</a></li>
                         <li><a class="dropdown-item nav-link" href="Acrographic Manuscripts.html">Acrographic
@@ -64,7 +64,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item nav-link" href="Synopsis.html">Synopsis of the VE</a></li>
-                        <li><a class="dropdown-item nav-link" href="Chart.html">Chart of the VE</a></li>
+                        <li><a class="dropdown-item nav-link" href="Chart.html">Visual Synopsis</a></li>
                     </ul>
                 </li>
                 <!-- More Dropdown -->
@@ -312,7 +312,7 @@
             d3.csv("https://raw.githubusercontent.com/erica-scarpa/VE/master/assets/dataset.csv").then(function (data) {
                 // Create an array to keep track of selected sources
                 if (!selectedSources) {
-                    selectedSources = ["EBK-A", "A1", "A2","A-3","A4-6", "A7", "G", "H", "I"]; // Default selection
+                    selectedSources = ["EBK-A", "A1", "A2","A-3","A4-6", "A7", "G", "H", "I", "B8", "B9-11", "M", "N", "R", "S", "T","AI","BA","BB","BC","BD","BE","BF"]; // Default selection
                 }
 
                 // Labels of row and columns -> unique identifier of the column called 'lemma' and 'source'
