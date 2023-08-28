@@ -2,7 +2,7 @@
 
 The main fragment of this tablet, TM.75.G.2422, was initially published by Pettinato in 1982 as MEE 4 115. In MEE 15, Picchioni identified an additional four fragments that join with this tablet (listed below). Picchioni also proposed a potential fifth connection with another fragment (TM.75.G.11302). An image of the tablet's obverse was included in the exhibition catalogue *Ebla origini* (1995) appearing on page 365 as catalog number 154. As of now, the remaining joins have not been published.
 
-See also the page on [[acrographic lists|Acrographic]].
+See also the page on the [acrographic lists](https://erica-scarpa.github.io/VE/Acrographic.html).
 
 |          | **Edition**               | **Inv. no.**         | **Other** |
 | -------- | ------------------------- | -------------------- | --------- |
