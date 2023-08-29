@@ -1,5 +1,3 @@
-# Vocabolario di Ebla
-
 The *Vocabolario di Ebla* is an umbrella term used to identify a group of lexical compositions described as bilingual lists or glossaries. These documents, compiled by the scribes of the ancient city of [Ebla](https://pleiades.stoa.org/places/869702586) around 2370 BCE, include hundreds of Sumerian words and expressions, with some of these also featuring translations or paraphrases in Eblaite. Scholars have identified at least four different manuscripts or "versions" of this glossary, and they have been engaged in reconstructing them from dozens of fragments over the past fifty years. Several dozens of shorter excerpts (called *estratti*) have also been discovered
 
 The *Vocabolario* serves as an indispensable tool for linguists, historians, and archaeologists who are dedicated to studying the Eblaite language and the ancient city itself. It plays a crucial role in enabling researchers to decode the meanings of Eblaite words, comprehend the grammatical structure of the language, and acquire insights into the vocabulary used by the people of Ebla.
