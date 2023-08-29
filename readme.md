@@ -6,7 +6,7 @@ The *Vocabolario* serves as an indispensable tool for linguists, historians, and
 
 The various manuscripts and excerpts collectively exhibit a consistent structure, albeit with some variations. The Sumerian words are arranged following an acrographic order (*i.e.* by sign shape) and  most bilingual lists are divided into sections that gather words commencing with the same logogram. For instance, in [[Manuscript A-1]], the list commences with [[Section NINDA]], followed by [[Section KA]], [[Section SAG]], and so forth. Each of these sections encompasses numerous words that start with the corresponding logogram.
 
-Certain words are accompanied by a [gloss](https://www.merriam-webster.com/dictionary/gloss#dictionary-entry-3) in Eblaite. These glosses occasionally serve as direct translations, although paraphrases also appear. In some bilingual compositions, a *glossenkeil* (here denoted as ✽) is introduced. This symbol conventionally denotes Semitic translations, allowing for a clear differentiation from Sumerian entries. A glossed entry looks as follows:
+Certain words are accompanied by a [gloss](https://www.merriam-webster.com/dictionary/gloss#dictionary-entry-3) in Eblaite. These glosses occasionally serve as direct translations, although paraphrases also appear. In some bilingual compositions, a *glossenkeil* (a small 𒀹, here marked as ✽) is introduced. This sign conventionally denotes Semitic translations, allowing for a clear differentiation from Sumerian entries. A glossed entry looks as follows:
 
 |          |                               |        |
 | -------- | ----------------------------- | ------ |
@@ -18,9 +18,9 @@ This entry appears in [[Manuscript D5]], fifth column, fouth and fifth cases. Th
 
 ## Variants and Composite Text
 
-As previously mentioned, multiple manuscripts and abridged versions of this lexical documents exist. The list of Sumerian terms remains relatively consistent across most of these compositions, as most are based on the acrographic manuscripts. These are monolingual lists of Sumerian words which served as an outline for the bilingual compositions. However, the presence of glosses for a given term can vary between different bilingual manuscripts. Furthermore, even when present in multiple manuscripts, the glosses themselves might exhibit significant discrepancies. For instance, consider again the term gi<sub>6</sub>-sa<sub>2</sub>. In [[Manuscript A-2]] and [[Manuscript B]], the respective glosses differ from the one found in [[Manuscript D]]. Specifically, [[Manuscript A-2]] and [[Manuscript B]] translate it as /šiqrum/, "dawn" (spelled *si-gi-lu-um* and *si-gi-lum* respectively), while [[Manuscript C]] presents *u*<sub>3</sub>-*ru* *mu-si-im*, signifying /[urru](https://www.ebl.lmu.de/dictionary/urru%20I) [mūšim](https://www.ebl.lmu.de/dictionary/m%C5%AB%C5%A1u%20I)/ ("light of the night").
+As previously mentioned, multiple manuscripts and abridged versions of this lexical composition exist. The list of Sumerian terms remains relatively consistent across most of these texts, as most are based on the acrographic manuscripts. These are monolingual lists of Sumerian words which served as an outline for the bilingual compositions. However, the presence of glosses for a given term can vary between different bilingual manuscripts. Furthermore, even when present in multiple manuscripts, the glosses themselves might exhibit significant discrepancies. For instance, consider again the term gi<sub>6</sub>-sa<sub>2</sub>. In [[Manuscript A-2]] and [[Manuscript B]], the respective glosses differ from the one found in [[Manuscript D]]. Specifically, [[Manuscript A-2]] and [[Manuscript B]] translate it as /šiqrum/, "dawn" (spelled *si-gi-lu-um* and *si-gi-lum* respectively), while [[Manuscript C]] presents *u*<sub>3</sub>-*ru* *mu-si-im*, signifying /[urru](https://www.ebl.lmu.de/dictionary/urru%20I) [mūšim](https://www.ebl.lmu.de/dictionary/m%C5%AB%C5%A1u%20I)/ ("light of the night").
 
-A composite text encompasses all the variations of a Sumerian term and available glosses. The composite text for the *Vocabolario di Ebla* currently available was published by Giovanni Pettinato in 1982 (*MEE* 4). In this edition, all Sumerian terms and their corresponding glosses, if provided, have been systematically numbered and consolidated into a single comprehensive edition. The (updated) entry for gi<sub>6</sub>-sa<sub>2</sub> is presented as follows:
+A composite text encompasses all the variations of a Sumerian term and available glosses. The composite text for the *Vocabolario di Ebla* currently available was published by Giovanni Pettinato in 1982 (*MEE* 4). In his edition, all Sumerian terms and their corresponding glosses, if provided, have been systematically numbered and consolidated into a single comprehensive synopsis. The (updated) entry for gi<sub>6</sub>-sa<sub>2</sub> is presented as follows:
 
 |        |     |                                                                 |
 | ------ | --- | --------------------------------------------------------------- |
@@ -41,11 +41,4 @@ As previously mentioned, since the bilingual compositions are primarily based on
 
 Check the [Milestones](https://erica-scarpa.github.io/VE/Milestones.html) page for a comprehensive overview of the project's achievements and significant developments.
 
-[//begin]: # "Autogenerated link references for markdown compatibility"
-[Manuscript A-1]: <Manuscript A-1> "Manuscript A-1"
-[Section NINDA]: <Section NINDA> "NINDA"
-[Section KA]: <Section KA> "KA"
-[Section SAG]: <Section SAG> "Section SAG"
-[Manuscript A-2]: <Manuscript A-2> "Manuscript A-2"
-[Manuscript B]: <Manuscript B> "Manuscript B"
-[//end]: # "Autogenerated link references"
+[//begin]: # "Autogenerated link references for markdown compatibility"1[Manuscript A-1]: <Manuscript A-1> "Manuscript A-1"1[Section NINDA]: <Section NINDA> "NINDA"1[Section KA]: <Section KA> "KA"1[Section SAG]: <Section SAG> "Section SAG"1[Manuscript A-2]: <Manuscript A-2> "Manuscript A-2"1[Manuscript B]: <Manuscript B> "Manuscript B"1[//end]: # "Autogenerated link references"
