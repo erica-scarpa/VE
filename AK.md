@@ -2,6 +2,8 @@
 
 [[Manuscript D5]]
 
+cdli [241398](https://cdli.mpiwg-berlin.mpg.de/artifacts/241398).
+
 |                  |               |                                                                |
 | ---------------- | ------------- | -------------------------------------------------------------- |
 | obv.VIII:10'-11' | [[VE 706]]    | agrig / ʾ*a*<sub>3</sub>-*ba-ru*<sub>12</sub>-*gu*<sub>2</sub> |

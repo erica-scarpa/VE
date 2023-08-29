@@ -1,6 +1,8 @@
 # MEE 4 57 = TM.75.G.3171
 
-Fragment of [[Manuscript C]]
+Fragment of [[Manuscript C]]...
+cdli [242335](https://cdli.mpiwg-berlin.mpg.de/artifacts/242335).
+
 
 |              |               |                                                       |
 | ------------ | ------------- | ----------------------------------------------------- |

@@ -1,6 +1,9 @@
 # MEE 4 59 = TM.75.G.11244
 
-Fragment of [[Manuscript C]]
+Fragment of [[Manuscript C]].
+
+cdli [245169](https://cdli.mpiwg-berlin.mpg.de/artifacts/245169).
+
 
 |           |               |                                   |
 | --------- | ------------- | --------------------------------- |

@@ -61,15 +61,15 @@ For a recent overview of the acrigraphic compositions, see [[Bonechi, 'Overview 
 
 ## Excerpts or sources
 
-| Abbreviation | Edition    | Inv. no.     |
-| ------------ | ---------- | ------------ |
+| Abbreviation | Edition   | Inv. no.     |
+| ------------ | --------- | ------------ |
 | [[EBK-E1]]   | MEE 15 32 | TM.75.G.5324 |
 | EBK.E2       | MEE 15 33 | TM.75.G.3442 |
 | EBK.E3       | MEE 15 34 | TM.75.G.3047 |
-| EBK.E4       | MEE 15 35 | TM.75.G.5326 |
+| [[EBK-E4]]   | MEE 15 35 | TM.75.G.5326 |
 | EBK.E5       | MEE 15 36 | TM.75.G.3409 |
 | EBK.E6       | MEE 15 37 | TM.75.G.5287 |
-| EBK.E7       | MEE 15 38 | TM.75.G.3130 |
+| [[EBK-E7]]   | MEE 15 38 | TM.75.G.3130 |
 
 ## Irregular acrographic texts
 
@@ -165,6 +165,8 @@ Fragment L4 has been recognized as part of the ED Fish list.
 [EBK-D1]: EBK-D1 "MEE 15 28 = TM.75.G.1304"
 [EBK-D2]: EBK-D2 "MEE 15 29 = TM.75.G.2414"
 [EBK-E1]: EBK-E1 "MEE 15 32 = TM.75.G.5324"
+[EBK-E4]: EBK-E4 "MEE 15 35 = TM.75.G.5326"
+[EBK-E7]: EBK-E7 "MEE 15 38 = TM.75.G.3130"
 [EBK-F1]: EBK-F1 "MEE 15 39 = TM.75.G.3212"
 [EBK-F2]: EBK-F2 "MEE 15 40 = TM.75.G.5276 + TM.75.G.10003"
 [EBK-F3]: EBK-F3 "MEE 15 41 = TM.75.G.3440"

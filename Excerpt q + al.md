@@ -2,6 +2,8 @@
 
  This almost complete tablet is the result of the post publication join of [[Excerpt q]] and [[Excerpt al]].
 
+ A picture of the tablet is available on [cdli](https://cdli.mpiwg-berlin.mpg.de/artifacts/242328).
+
 ## Excerpt q
 
  |           |          |                                             |
