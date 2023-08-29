@@ -1,13 +1,13 @@
 # Vocabolario di Ebla
 
-<img src="attachments/location_map.png" width="20%" style="float:right; border-radius:5%; margin-left:20px">The *Vocabolario di Ebla* is an umbrella term used to identify a group of lexical compositions described as bilingual lists or glossaries. These documents, compiled by the scribes of the ancient city of [Ebla](https://pleiades.stoa.org/places/869702586) around 2370 BCE, include hundreds of Sumerian words and terms, with some of these also featuring translations or paraphrases in Eblaite. Scholars have identified at least four different manuscripts or "versions" of this glossary, and they have been engaged in reconstructing them from dozens of fragments over the past fifty years. Several dozens of shorter excerpts (called *estratti*) of this composition have also been discovered
+The *Vocabolario di Ebla* is an umbrella term used to identify a group of lexical compositions described as bilingual lists or glossaries. These documents, compiled by the scribes of the ancient city of [Ebla](https://pleiades.stoa.org/places/869702586) around 2370 BCE, include hundreds of Sumerian words and expressions, with some of these also featuring translations or paraphrases in Eblaite. Scholars have identified at least four different manuscripts or "versions" of this glossary, and they have been engaged in reconstructing them from dozens of fragments over the past fifty years. Several dozens of shorter excerpts (called *estratti*) have also been discovered
 
 The *Vocabolario* serves as an indispensable tool for linguists, historians, and archaeologists who are dedicated to studying the Eblaite language and the ancient city itself. It plays a crucial role in enabling researchers to decode the meanings of Eblaite words, comprehend the grammatical structure of the language, and acquire insights into the vocabulary used by the people of Ebla.
 
 ## Structure of the Composition
-The various manuscripts and excerpts collectively exhibit a consistent structure, albeit with some variations. The Sumerian words are arranged following an acrographic order, wherein most bilingual lists are divided into sections that gather words commencing with the same logogram. For instance, in [[Manuscript A-1]], the sequence commences with [[Section NINDA]], followed by [[Section KA]], [[Section SAG]], and so forth. Each of these sections encompasses numerous words that commence with the corresponding logogram.
+The various manuscripts and excerpts collectively exhibit a consistent structure, albeit with some variations. The Sumerian words are arranged following an acrographic order (*i.e.* by sign shape) and  most bilingual lists are divided into sections that gather words commencing with the same logogram. For instance, in [[Manuscript A-1]], the list commences with [[Section NINDA]], followed by [[Section KA]], [[Section SAG]], and so forth. Each of these sections encompasses numerous words that start with the corresponding logogram.
 
-Certain words are accompanied by a [gloss](https://www.merriam-webster.com/dictionary/gloss#dictionary-entry-3) in Eblaite. These glosses occasionally serve as direct translations, although at times, paraphrases also appear. In some bilingual compositions, a *glossenkeil* (here denoted as ✽) is introduced. This symbol conventionally denotes Semitic translations, allowing for a clear differentiation from Sumerian entries. The format of a glossed entry is as follows:
+Certain words are accompanied by a [gloss](https://www.merriam-webster.com/dictionary/gloss#dictionary-entry-3) in Eblaite. These glosses occasionally serve as direct translations, although paraphrases also appear. In some bilingual compositions, a *glossenkeil* (here denoted as ✽) is introduced. This symbol conventionally denotes Semitic translations, allowing for a clear differentiation from Sumerian entries. A glossed entry looks as follows:
 
 |          |                               |        |
 | -------- | ----------------------------- | ------ |
@@ -25,7 +25,7 @@ A composite text encompasses all the variations of a Sumerian term and available
 
 |        |     |                                                                 |
 | ------ | --- | --------------------------------------------------------------- |
-| VE 817 | A-1 | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lu-um*                   |
+| VE 817 | A-1 | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lu-um* ✽                  |
 |        | B   | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lum*                     |
 |        | C   | gi<sub>6</sub>-sa<sub>2</sub> / *u*<sub>3</sub>-*ru* *mu-si-im* |
 |        | D   | gi<sub>6</sub>-sa<sub>2</sub> / *ba-na me-si-im*                |
