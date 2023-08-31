@@ -8,7 +8,7 @@
 
 | Source(s)                | Manuscript(s)      | Gloss                                            |
 | ------------------------ | ------------------ | ------------------------------------------------ |
-| [[A2]] obv.III':18'-19'  | [[Manuscript A-1]] | inim-di / *dal-da-gi-lum*                        |
+| [[A2]] obv.III':18'-19'  | [[Manuscript A-1]] | inim-di / *dal-da-gi-lum* ✽                       |
 | [[B8]] obv.III':4'-5'    | [[Manuscript B]]   | inim-di / *dal-da-gi-lum*                        |
 | [[C]] rev.VII:14-15      | [[Manuscript D1]]  | inim-di / *dal-da-gi-lum*                        |
 | [[K]] obv.III:18'        | [[Manuscript C]]   | inim-di / [not glossed]                          |
