@@ -1,6 +1,6 @@
 lemma,Cuneiform,source,sumerian,gloss,value,squareColor,order
-VE 1,𒂠𒁇𒌺,EBK-A,eš<sub>2</sub>-bar-kin<sub>5</sub>,-,not glossed,#ffcc66,0000
-VE 1,𒂠𒁇𒌺,A1,eš<sub>2</sub>-bar-kin<sub>5</sub>,not glossed,not glossed,#66ff99,0001
+VE 1,a,EBK-A,eš<sub>2</sub>-bar-kin<sub>5</sub>,-,not glossed,#ffcc66,0000
+VE 1,b,A1,eš<sub>2</sub>-bar-kin<sub>5</sub>,not glossed,not glossed,#66ff99,0001
 VE 2,null,EBK-A,nig<sub>2</sub>-tum<sub>2</sub>,-,not glossed,#ffcc66,0002
 VE 2,null,A1,nig<sub>2</sub>-tum<sub>2</sub>,not glossed,not glossed,#66ff99,0003
 VE 2,null,C,[nig<sub>2</sub>]-tum<sub>2</sub>,not glossed,not glossed,#66ff99,0004
@@ -28,9 +28,9 @@ VE 254,null,K,⸢sag⸣-sum,<i>za-ba-lu</i> SAG,glossed,#ff66cc,0025
 VE 254,null,O,sag-sum,<i>za-bi</i><sub>2</sub>-<i>lu-um</i>,glossed,#ff66cc,0026
 VE 278,null,O,u<sub>2</sub>-gigir,<i>a-ša-ḫa-bu</i><sub>3</sub>,glossed,#ff66cc,0027
 VE 278,null,R,u<sub>2</sub>-gigir,not glossed,glossed,#ff66cc,0028
-VE 291,null,EBK-A,<sup>u₂</sup>gudu<sub>4</sub> ,-,not glossed,#ffcc66,0029
-VE 291,null,A4-6,<sup>u₂</sup>gudu<sub>4</sub> ,<i>sa-na-tum</i> ✽,glossed,#ff66cc,0030
-VE 291,null,O,<sup>u₂</sup>gudu<sub>4</sub> ,<i>sa-na-du-um</i>,glossed,#ff66cc,0031
+VE 291,null,EBK-A,<sup>u₂</sup>gudu<sub>4</sub>,-,not glossed,#ffcc66,0029
+VE 291,null,A4-6,<sup>u₂</sup>gudu<sub>4</sub>,<i>sa-na-tum</i> ✽,glossed,#ff66cc,0030
+VE 291,null,O,<sup>u₂</sup>gudu<sub>4</sub>,<i>sa-na-du-um</i>,glossed,#ff66cc,0031
 VE 409a,null,EBK-A,<sup>giš</sup>DILMUN,-,not glossed,#ffcc66,0032
 VE 409a,null,A4-6,<sup>giš</sup>DILMUN,<i>wa-za-nu-um</i> ✽  ,glossed,#ff66cc,0033
 VE 409a,null,B8,<sup>giš</sup>DILMUN,<i>wa-za-num</i><sub>2</sub>,glossed,#ff66cc,0034
