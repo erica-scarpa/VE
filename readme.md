@@ -1,10 +1,10 @@
 The *Vocabolario di Ebla* (VE) is an umbrella term used to identify a group of lexical compositions described as bilingual lists or glossaries. These documents, compiled by the scribes of the ancient city of [Ebla](https://pleiades.stoa.org/places/869702586) around 2370 BCE, include hundreds of Sumerian words and expressions, with some of these also featuring translations or paraphrases in Eblaite. Scholars have identified at least four different manuscripts or "versions" of this glossary, and they have been engaged in reconstructing them from dozens of fragments over the past fifty years. Several dozens of shorter excerpts (called *estratti*) have also been discovered
 
-The *Vocabolario* serves as an indispensable tool for linguists, historians, and archaeologists who are dedicated to studying the Eblaite language and the ancient city itself. It plays a crucial role in enabling researchers to decode the meanings of Eblaite words, comprehend the grammatical structure of the language, and acquire insights into the vocabulary used by the people of Ebla.
+The *Vocabolario* serves as an indispensable tool for linguists, historians, and archaeologists who are dedicated to studying the Eblaite language and the ancient city itself. It plays a crucial role in enabling researchers to decode the meanings of Eblaite words, comprehend the grammatical structure of the language, and acquire insights into the vocabulary used by the accountants who worked in the Palace.
 
 ## Structure of the Composition
 
-The various manuscripts and excerpts collectively exhibit a consistent structure, albeit with some variations. The Sumerian words are arranged following an acrographic order (*i.e.* by sign shape) and  most bilingual lists are divided into sections that gather words commencing with the same logogram. For instance, in [[Manuscript A-1]], the list commences with [[Section NINDA]], followed by [[Section KA]], [[Section SAG]], and so forth. Each of these sections encompasses numerous words that start with the corresponding logogram.
+The various manuscripts and excerpts collectively exhibit a consistent structure, albeit with some variations. The Sumerian words are arranged following an acrographic order (*i.e.* by sign shape) and  most bilingual lists are divided into sections that gather words commencing with the same logogram. For instance, in [[Manuscript A-1]], the list commences with [[Section NINDA]] (𒃻), followed by [[Section KA]] (𒅗), [[Section SAG]] (𒅗), and so forth. Each of these sections encompasses numerous words that start with the corresponding logogram.
 
 Certain words are accompanied by a [gloss](https://www.merriam-webster.com/dictionary/gloss#dictionary-entry-3) in Eblaite. These glosses occasionally serve as direct translations, although paraphrases also appear. In some bilingual compositions, a *glossenkeil* (a small 𒀹, here marked as ✽) is introduced. This sign conventionally denotes Semitic translations, allowing for a clear differentiation from Sumerian entries. A glossed entry looks as follows:
 
@@ -22,12 +22,12 @@ As previously mentioned, multiple manuscripts and abridged versions of this lexi
 
 A composite text encompasses all the variations of a Sumerian term and available glosses. The composite text for the *Vocabolario di Ebla* currently available was published by Giovanni Pettinato in 1982 (*MEE* 4). In his edition, all Sumerian terms and their corresponding glosses, if provided, have been systematically numbered and consolidated into a single comprehensive synopsis. The (updated) entry for gi<sub>6</sub>-sa<sub>2</sub> is presented as follows:
 
-|        |     |                                                                 |
-| ------ | --- | --------------------------------------------------------------- |
-| VE 817 | A-1 | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lu-um* ✽                  |
-|        | B   | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lum*                     |
-|        | C   | gi<sub>6</sub>-sa<sub>2</sub> / *u*<sub>3</sub>-*ru* *mu-si-im* |
-|        | D   | gi<sub>6</sub>-sa<sub>2</sub> / *ba-na me-si-im*                |
+|        |     |                                                                 |                  |
+| ------ | --- | --------------------------------------------------------------- | ---------------- |
+| VE 817 | A-1 | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lu-um* ✽                 | 𒈪𒁲 / 𒋛𒄀𒇻𒌝    |
+|        | B   | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lum*                     | 𒈪𒁲 / 𒋛𒄀𒈝      |
+|        | C   | gi<sub>6</sub>-sa<sub>2</sub> / *u*<sub>3</sub>-*ru* *mu-si-im* | 𒈪𒁲 / 𒅇𒂗𒈬𒋛𒅎  |
+|        | D   | gi<sub>6</sub>-sa<sub>2</sub> / *ba-na me-si-im*                | 𒈪𒁲 / 𒁀𒈾 𒈨𒋛𒅎 |
 
 ## Present Synopsis
 
