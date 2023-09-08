@@ -1,79 +1,79 @@
-lemma,Cuneiform,source,sumerian,gloss,value,squareColor,order
-VE 1,a,EBK-A,eš<sub>2</sub>-bar-kin<sub>5</sub>,-,not glossed,#ffcc66,0000
-VE 1,b,A1,eš<sub>2</sub>-bar-kin<sub>5</sub>,not glossed,not glossed,#66ff99,0001
-VE 2,null,EBK-A,nig<sub>2</sub>-tum<sub>2</sub>,-,not glossed,#ffcc66,0002
-VE 2,null,A1,nig<sub>2</sub>-tum<sub>2</sub>,not glossed,not glossed,#66ff99,0003
-VE 2,null,C,[nig<sub>2</sub>]-tum<sub>2</sub>,not glossed,not glossed,#66ff99,0004
-VE 40a,null,EBK-A,nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub>,-,not glossed,#ffcc66,0005
-VE 40a,null,A1,nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub>,<i>su-mu-tum</i>,glossed,#ff66cc,0006
-VE 40a,null,B8,nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub>,<i>su-mu-tum</i>,glossed,#ff66cc,0007
-VE 100,null,i,nig<sub>2</sub>-gig,ne-ki-ki / <i>ni-ki-tum</i> ,glossed,#ff66cc,0008
-VE 149,null,EBK-A,u<sub>3</sub>-nu-gar,-,not glossed,#ffcc66,0009
-VE 149,null,A2,u<sub>3</sub>-nu-gar,not glossed,not glossed,#66ff99,0010
-VE 149,null,L,u<sub>3</sub>-nu-gar,not glossed,not glossed,#66ff99,0011
-VE 149,null,C,u<sub>3</sub>-nu-gar,<i>u</i><sub>3</sub>-<i>ba-su-um</i>,glossed,#ff66cc,0012
-VE 186a-b,null,EBK-A,inim-di,-,not glossed,#ffcc66,0013
-VE 186a-b,null,A2,inim-di,<i>dal-da-gi-lum</i>,glossed,#ff66cc,0014
-VE 186a-b,null,B8,inim-di,<i>dal-da-gi-lum</i>,glossed,#ff66cc,0015
-VE 186a-b,null,C,inim-di,<i>dal-da-gi-lum</i>,glossed,#ff66cc,0016
-VE 186a-b,null,K,inim-di,not glossed,not glossed,#66ff99,0017
-VE 186a-b,null,i,inim-di,ne-me-ti <i>ti-da-bir</i><sub>5</sub>-<i>lum</i>,glossed,#ff66cc,0018
-VE 190,null,EBK-A,KA.MA,-,not glossed,#ffcc66,0019
-VE 190,null,A4-6,KA.MA,not glossed,not glossed,#66ff99,0020
-VE 190,null,ak,KA.MA,not glossed,not glossed,#66ff99,0021
-VE 190,null,s,KA.MA,<i>bu</i><sub>3</sub>-<i>gu</i><sub>2</sub>-<i>um</i>,glossed,#ff66cc,0022
-VE 254,null,EBK-A,sag-sum,-,not glossed,#ffcc66,0023
-VE 254,null,A4-6,sag-sum,[x]-⸢x⸣-<i>lu-um</i> ✽ ,glossed,#ff66cc,0024
-VE 254,null,K,⸢sag⸣-sum,<i>za-ba-lu</i> SAG,glossed,#ff66cc,0025
-VE 254,null,O,sag-sum,<i>za-bi</i><sub>2</sub>-<i>lu-um</i>,glossed,#ff66cc,0026
-VE 278,null,O,u<sub>2</sub>-gigir,<i>a-ša-ḫa-bu</i><sub>3</sub>,glossed,#ff66cc,0027
-VE 278,null,R,u<sub>2</sub>-gigir,not glossed,glossed,#ff66cc,0028
-VE 291,null,EBK-A,<sup>u₂</sup>gudu<sub>4</sub>,-,not glossed,#ffcc66,0029
-VE 291,null,A4-6,<sup>u₂</sup>gudu<sub>4</sub>,<i>sa-na-tum</i> ✽,glossed,#ff66cc,0030
-VE 291,null,O,<sup>u₂</sup>gudu<sub>4</sub>,<i>sa-na-du-um</i>,glossed,#ff66cc,0031
-VE 409a,null,EBK-A,<sup>giš</sup>DILMUN,-,not glossed,#ffcc66,0032
-VE 409a,null,A4-6,<sup>giš</sup>DILMUN,<i>wa-za-nu-um</i> ✽  ,glossed,#ff66cc,0033
-VE 409a,null,B8,<sup>giš</sup>DILMUN,<i>wa-za-num</i><sub>2</sub>,glossed,#ff66cc,0034
-VE 409a,null,V,<sup>giš</sup>DILMUN,<i>ša-gi-lum</i>,glossed,#ff66cc,0035
-VE 418,null,A4-6,GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>,not glossed,glossed,#ff66cc,0036
-VE 418,null,V,GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>,<i>ša-ga-lum</i>,glossed,#ff66cc,0037
-VE 418,null,X,[GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>],<i>še</i>₃-<i>kir</i>-x,glossed,#ff66cc,0038
-VE 530,null,EBK-A,šu-šilig,-,not glossed,#ffcc66,0039
-VE 530,null,A4-6,šu-šilig,not glossed,not glossed,#66ff99,0040
-VE 530,null,B9-11,šu-šilig,not glossed,not glossed,#66ff99,0041
-VE 530,null,AD,šu-šilig,<i>u-bu</i><sub>x</sub>-<i>lum</i> ,glossed,#ff66cc,0042
-VE 545,null,EBK-A,A<sub>2</sub>.MUŠEN,-,not glossed,#ffcc66,0043
-VE 545,null,B9-11,A<sub>2</sub>.MUŠEN,not glossed,not glossed,#66ff99,0044
-VE 545,null,AD,A<sub>2</sub>.MUŠEN,<i>a-bar-tum</i>,glossed,#ff66cc,0045
-VE 671,null,AZ,še-gibil,not glossed,not glossed,#66ff99,0046
-VE 671,null,BA,še-gibil,not glossed,not glossed,#66ff99,0047
-VE 671,null,A III 683,še-gibil,not glossed,not glossed,#66ff99,0048
-VE 671,null,f,še-gibil,not glossed,not glossed,#66ff99,0049
-VE 706,null,A4-6,agrig,ʾ<i>a</i><sub>3</sub>-<i>ga-ra-gu</i><sub>2</sub>-<i>um</i>,glossed,#ff66cc,0050
-VE 706,null,B9-11,agrig,ʾ<i>a</i><sub>3</sub>-<i>ga-ra-gu</i><sub>2</sub>,glossed,#ff66cc,0051
-VE 706,null,AK,agrig,ʾ<i>a</i><sub>3</sub>-<i>ba-ru</i><sub>12</sub>-<i>gu</i><sub>2</sub> ,glossed,#ff66cc,0052
-VE 799a-b,null,A4-6,<sup>d</sup>EN.ZI,<i>su</i><sub>2</sub>-<i>i-nu</i> ✽,glossed,#ff66cc,0053
-VE 799a-b,null,B9-11,<sup>d</sup>EN.ZI,<i>su</i><sub>2</sub>-<i>i-nu</i>,glossed,#ff66cc,0054
-VE 799a-b,null,AK,<sup>d</sup>EN.ZI,<i>su</i><sub>2</sub>-<i>i-n</i>[<i>u</i>],glossed,#ff66cc,0055
-VE 799a-b,null,AV,<sup>d</sup>EN.ZI,not glossed,not glossed,#66ff99,0056
-VE 799a-b,null,AT,<sup>d</sup>EN.ZU,<i>su</i><sub>2</sub>-<i>i-</i>[<i>nu</i>],glossed,#ff66cc,0057
-VE 857,null,EBK-A,gid<sub>2</sub><sup>tug₂</sup> ,-,not glossed,#ffcc66,0058
-VE 857,null,A4-6,gid<sub>2</sub><sup>tug₂</sup> ,<i>gu-da-nu-um</i> ✽,glossed,#ff66cc,0059
-VE 857,null,B9-11,gid<sub>2</sub><sup>tug₂</sup> ,<i>gu-da-nu-um</i>,glossed,#ff66cc,0060
-VE 868,null,EBK-A,gin<sub>3</sub><sup>za</sup>,-,not glossed,#ffcc66,0061
-VE 868,null,A4-6,gin<sub>3</sub><sup>za</sup>,not glossed,not glossed,#66ff99,0062
-VE 868,null,AK,gin<sub>3</sub><sup>za</sup>,not glossed,not glossed,#66ff99,0063
-VE 868,null,B9-11,gin<sub>3</sub><sup>za</sup>,not glossed,not glossed,#66ff99,0064
-VE 877,null,v,ḪUB<sub>2</sub>.ḪUB<sub>2</sub>,<i>gu</i><sub>2</sub>-<i>du-gu</i><sub>2</sub>-<i>du-wu-um</i> ✽,glossed,#ff66cc,0065
-VE 901,null,EBK-A,na-⸢de<sub>5</sub>⸣,-,not glossed,#ffcc66,0066
-VE 901,null,A4-6,na-de<sub>5</sub>,<i>wa-ša-lu-um</i> ✽,glossed,#ff66cc,0067
-VE 901,null,B9-11,na-de<sub>5</sub>,<i>wa-li</i><sup>(!)</sup>-<i>lu-um</i>,glossed,#ff66cc,0068
-VE 1058,null,A1,ama-ug<sub>5</sub>-ga,<i>gi-ba-um</i>,glossed,#ff66cc,0069
-VE 1058,null,B9-11,ama-ug<sub>5</sub>-ga,<i>gi-ba-um</i>,glossed,#ff66cc,0070
-VE 1058,null,h,ama-ug<sub>5</sub>-ga,-,not glossed,#66ff99,0071
-VE 1227',null,BG,tu<sub>x</sub> (NAGA.A),ʾ<i>a</i><sub>3</sub>-<i>a-um</i>,glossed,#ff66cc,0072
-VE 1227',null,BB,tu<sub>x</sub> (NAGA.A),not glossed,not glossed,#66ff99,0073
-VE 1412'a,null,AZ,geme<sub>2</sub>-kar-ke<sub>3</sub>,<i>za-bi</i><sub></sub>-<i>tum</i>,glossed,#ff66cc,0074
-VE 1412'a,null,d,geme<sub>2</sub>-kar-ke<sub>3</sub>,<i>ša-ma-ak-tum</i> ✽,glossed,#ff66cc,0075
-VE 1309',null,AZ,abba<sub>2</sub>,not glossed,not glossed,#66ff99,0076
-VE 1309',null,BD,abba<sub>2</sub>,not glossed,not glossed,#66ff99,0077
+lemma,source,sumerian,gloss,value,squareColor,order
+VE 1,EBK-A,eš<sub>2</sub>-bar-kin<sub>5</sub>,-,not glossed,#ffcc66,0000
+VE 1,A1,eš<sub>2</sub>-bar-kin<sub>5</sub>,not glossed,not glossed,#66ff99,0001
+VE 2,EBK-A,nig<sub>2</sub>-tum<sub>2</sub>,-,not glossed,#ffcc66,0002
+VE 2,A1,nig<sub>2</sub>-tum<sub>2</sub>,not glossed,not glossed,#66ff99,0003
+VE 2,C,[nig<sub>2</sub>]-tum<sub>2</sub>,not glossed,not glossed,#66ff99,0004
+VE 40a,EBK-A,nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub>,-,not glossed,#ffcc66,0005
+VE 40a,A1,nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub>,<i>su-mu-tum</i>,glossed,#ff66cc,0006
+VE 40a,B8,nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub>,<i>su-mu-tum</i>,glossed,#ff66cc,0007
+VE 100,i,nig<sub>2</sub>-gig,ne-ki-ki / <i>ni-ki-tum</i> ,glossed,#ff66cc,0008
+VE 149,EBK-A,u<sub>3</sub>-nu-gar,-,not glossed,#ffcc66,0009
+VE 149,A2,u<sub>3</sub>-nu-gar,not glossed,not glossed,#66ff99,0010
+VE 149,L,u<sub>3</sub>-nu-gar,not glossed,not glossed,#66ff99,0011
+VE 149,C,u<sub>3</sub>-nu-gar,<i>u</i><sub>3</sub>-<i>ba-su-um</i>,glossed,#ff66cc,0012
+VE 186a-b,EBK-A,inim-di,-,not glossed,#ffcc66,0013
+VE 186a-b,A2,inim-di,<i>dal-da-gi-lum</i>,glossed,#ff66cc,0014
+VE 186a-b,B8,inim-di,<i>dal-da-gi-lum</i>,glossed,#ff66cc,0015
+VE 186a-b,C,inim-di,<i>dal-da-gi-lum</i>,glossed,#ff66cc,0016
+VE 186a-b,K,inim-di,not glossed,not glossed,#66ff99,0017
+VE 186a-b,i,inim-di,ne-me-ti <i>ti-da-bir</i><sub>5</sub>-<i>lum</i>,glossed,#ff66cc,0018
+VE 190,EBK-A,KA.MA,-,not glossed,#ffcc66,0019
+VE 190,A4-6,KA.MA,not glossed,not glossed,#66ff99,0020
+VE 190,ak,KA.MA,not glossed,not glossed,#66ff99,0021
+VE 190,s,KA.MA,<i>bu</i><sub>3</sub>-<i>gu</i><sub>2</sub>-<i>um</i>,glossed,#ff66cc,0022
+VE 254,EBK-A,sag-sum,-,not glossed,#ffcc66,0023
+VE 254,A4-6,sag-sum,[x]-⸢x⸣-<i>lu-um</i> ✽ ,glossed,#ff66cc,0024
+VE 254,K,⸢sag⸣-sum,<i>za-ba-lu</i> SAG,glossed,#ff66cc,0025
+VE 254,O,sag-sum,<i>za-bi</i><sub>2</sub>-<i>lu-um</i>,glossed,#ff66cc,0026
+VE 278,O,u<sub>2</sub>-gigir,<i>a-ša-ḫa-bu</i><sub>3</sub>,glossed,#ff66cc,0027
+VE 278,R,u<sub>2</sub>-gigir,not glossed,glossed,#ff66cc,0028
+VE 291,EBK-A,<sup>u₂</sup>gudu<sub>4</sub> ,-,not glossed,#ffcc66,0029
+VE 291,A4-6,<sup>u₂</sup>gudu<sub>4</sub> ,<i>sa-na-tum</i> ✽,glossed,#ff66cc,0030
+VE 291,O,<sup>u₂</sup>gudu<sub>4</sub> ,<i>sa-na-du-um</i>,glossed,#ff66cc,0031
+VE 409a,EBK-A,<sup>giš</sup>DILMUN,-,not glossed,#ffcc66,0032
+VE 409a,A4-6,<sup>giš</sup>DILMUN,<i>wa-za-nu-um</i> ✽  ,glossed,#ff66cc,0033
+VE 409a,B8,<sup>giš</sup>DILMUN,<i>wa-za-num</i><sub>2</sub>,glossed,#ff66cc,0034
+VE 409a,V,<sup>giš</sup>DILMUN,<i>ša-gi-lum</i>,glossed,#ff66cc,0035
+VE 418,A4-6,GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>,not glossed,glossed,#ff66cc,0036
+VE 418,V,GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>,<i>ša-ga-lum</i>,glossed,#ff66cc,0037
+VE 418,X,[GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>],<i>še</i>₃-<i>kir</i>-x,glossed,#ff66cc,0038
+VE 530,EBK-A,šu-šilig,-,not glossed,#ffcc66,0039
+VE 530,A4-6,šu-šilig,not glossed,not glossed,#66ff99,0040
+VE 530,B9-11,šu-šilig,not glossed,not glossed,#66ff99,0041
+VE 530,AD,šu-šilig,<i>u-bu</i><sub>x</sub>-<i>lum</i> ,glossed,#ff66cc,0042
+VE 545,EBK-A,A<sub>2</sub>.MUŠEN,-,not glossed,#ffcc66,0043
+VE 545,B9-11,A<sub>2</sub>.MUŠEN,not glossed,not glossed,#66ff99,0044
+VE 545,AD,A<sub>2</sub>.MUŠEN,<i>a-bar-tum</i>,glossed,#ff66cc,0045
+VE 671,AZ,še-gibil,not glossed,not glossed,#66ff99,0046
+VE 671,BA,še-gibil,not glossed,not glossed,#66ff99,0047
+VE 671,A III 683,še-gibil,not glossed,not glossed,#66ff99,0048
+VE 671,f,še-gibil,not glossed,not glossed,#66ff99,0049
+VE 706,A4-6,agrig,ʾ<i>a</i><sub>3</sub>-<i>ga-ra-gu</i><sub>2</sub>-<i>um</i>,glossed,#ff66cc,0050
+VE 706,B9-11,agrig,ʾ<i>a</i><sub>3</sub>-<i>ga-ra-gu</i><sub>2</sub>,glossed,#ff66cc,0051
+VE 706,AK,agrig,ʾ<i>a</i><sub>3</sub>-<i>ba-ru</i><sub>12</sub>-<i>gu</i><sub>2</sub> ,glossed,#ff66cc,0052
+VE 799a-b,A4-6,<sup>d</sup>EN.ZI,<i>su</i><sub>2</sub>-<i>i-nu</i> ✽,glossed,#ff66cc,0053
+VE 799a-b,B9-11,<sup>d</sup>EN.ZI,<i>su</i><sub>2</sub>-<i>i-nu</i>,glossed,#ff66cc,0054
+VE 799a-b,AK,<sup>d</sup>EN.ZI,<i>su</i><sub>2</sub>-<i>i-n</i>[<i>u</i>],glossed,#ff66cc,0055
+VE 799a-b,AV,<sup>d</sup>EN.ZI,not glossed,not glossed,#66ff99,0056
+VE 799a-b,AT,<sup>d</sup>EN.ZU,<i>su</i><sub>2</sub>-<i>i-</i>[<i>nu</i>],glossed,#ff66cc,0057
+VE 857,EBK-A,gid<sub>2</sub><sup>tug₂</sup>,-,not glossed,#ffcc66,0058
+VE 857,A4-6,gid<sub>2</sub><sup>tug₂</sup>,<i>gu-da-nu-um</i> ✽,glossed,#ff66cc,0059
+VE 857,B9-11,gid<sub>2</sub><sup>tug₂</sup>,<i>gu-da-nu-um</i>,glossed,#ff66cc,0060
+VE 868,EBK-A,gin<sub>3</sub><sup>za</sup>,-,not glossed,#ffcc66,0061
+VE 868,A4-6,gin<sub>3</sub><sup>za</sup>,not glossed,not glossed,#66ff99,0062
+VE 868,AK,gin<sub>3</sub><sup>za</sup>,not glossed,not glossed,#66ff99,0063
+VE 868,B9-11,gin<sub>3</sub><sup>za</sup>,not glossed,not glossed,#66ff99,0064
+VE 877,v,ḪUB<sub>2</sub>.ḪUB<sub>2</sub>,<i>gu</i><sub>2</sub>-<i>du-gu</i><sub>2</sub>-<i>du-wu-um</i> ✽,glossed,#ff66cc,0065
+VE 901,EBK-A,na-⸢de<sub>5</sub>⸣,-,not glossed,#ffcc66,0066
+VE 901,A4-6,na-de<sub>5</sub>,<i>wa-ša-lu-um</i> ✽,glossed,#ff66cc,0067
+VE 901,B9-11,na-de<sub>5</sub>,<i>wa-li</i><sup>(!)</sup>-<i>lu-um</i>,glossed,#ff66cc,0068
+VE 1058,A1,ama-ug<sub>5</sub>-ga,<i>gi-ba-um</i>,glossed,#ff66cc,0069
+VE 1058,B9-11,ama-ug<sub>5</sub>-ga,<i>gi-ba-um</i>,glossed,#ff66cc,0070
+VE 1058,h,ama-ug<sub>5</sub>-ga,-,not glossed,#66ff99,0071
+VE 1227',BG,tu<sub>x</sub> (NAGA.A),ʾ<i>a</i><sub>3</sub>-<i>a-um</i>,glossed,#ff66cc,0072
+VE 1227',BB,tu<sub>x</sub> (NAGA.A),not glossed,not glossed,#66ff99,0073
+VE 1412'a,AZ,geme<sub>2</sub>-kar-ke<sub>3</sub>,<i>za-bi</i><sub></sub>-<i>tum</i>,glossed,#ff66cc,0074
+VE 1412'a,d,geme<sub>2</sub>-kar-ke<sub>3</sub>,<i>ša-ma-ak-tum</i> ✽,glossed,#ff66cc,0075
+VE 1309',AZ,abba<sub>2</sub>,not glossed,not glossed,#66ff99,0076
+VE 1309',BD,abba<sub>2</sub>,not glossed,not glossed,#66ff99,0077
