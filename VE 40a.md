@@ -1,4 +1,4 @@
-# VE 40a: 𒃻𒂠<span style="color:grey">𒉡</span>𒂠
+# VE 40a: 𒃻𒂠<span style="color:#dd5f6d">𒉡</span>𒂠
 
 **Section**: [[Section NINDA]]
 
