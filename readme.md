@@ -4,7 +4,7 @@ The *Vocabolario* serves as an indispensable tool for linguists, historians, and
 
 ## Structure of the Composition
 
-The various manuscripts and excerpts collectively exhibit a consistent structure, albeit with some variations. The Sumerian words are arranged following an acrographic order (*i.e.* by sign shape) and  most bilingual lists are divided into sections that gather words commencing with the same logogram. For instance, in [[Manuscript A-1]], the list commences with [[Section NINDA]] (𒃻), followed by [[Section KA]] (𒅗), [[Section SAG]] (𒅗), and so forth. Each of these sections encompasses numerous words that start with the corresponding logogram.
+The various manuscripts and excerpts collectively exhibit a consistent structure, albeit with some variations. The Sumerian words are arranged following an acrographic order (*i.e.* by sign shape) and  most bilingual lists are divided into sections that gather words commencing with the same logogram. For instance, in [[Manuscript A-1]], the list commences with [[Section NINDA]] (𒃻), followed by [[Section KA]] (𒅗), [[Section SAG]] (𒊕), and so forth. Each of these sections encompasses numerous words that start with the corresponding logogram.
 
 Certain words are accompanied by a [gloss](https://www.merriam-webster.com/dictionary/gloss#dictionary-entry-3) in Eblaite. These glosses occasionally serve as direct translations, although paraphrases also appear. In some bilingual compositions, a *glossenkeil* (a small 𒀹, here marked as ✽) is introduced. This sign conventionally denotes Semitic translations, allowing for a clear differentiation from Sumerian entries. A glossed entry looks as follows:
 
@@ -24,7 +24,7 @@ A composite text encompasses all the variations of a Sumerian term and available
 
 |        |     |                                                                 |                  |
 | ------ | --- | --------------------------------------------------------------- | ---------------- |
-| VE 817 | A-1 | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lu-um* ✽                 | 𒈪𒁲 / 𒋛𒄀𒇻𒌝    |
+| VE 817 | A-1 | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lu-um* ✽                 | 𒈪𒁲 / 𒋛𒄀𒇻𒌝 𒀹   |
 |        | B   | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lum*                     | 𒈪𒁲 / 𒋛𒄀𒈝      |
 |        | C   | gi<sub>6</sub>-sa<sub>2</sub> / *u*<sub>3</sub>-*ru* *mu-si-im* | 𒈪𒁲 / 𒅇𒂗𒈬𒋛𒅎  |
 |        | D   | gi<sub>6</sub>-sa<sub>2</sub> / *ba-na me-si-im*                | 𒈪𒁲 / 𒁀𒈾 𒈨𒋛𒅎 |
