@@ -4,7 +4,7 @@
 | ------------- | ------------------------------------------------ | -------------- | ------------------------------------------------------- |
 | [[VE 1]]      | eš<sub>2</sub>-bar-kin<sub>5</sub>               | 𒂠𒁇𒌺         |                                                         |
 | [[VE 2]]      | nig<sub>2</sub>-tum<sub>2</sub>                  | 𒃻𒁺           |                                                         |
-| [[VE 40a]]    | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> | 𒃻𒂠𒉡𒂠       | /šummuttum/, ‘tethering rope’                           |
+| [[VE 40a]]    | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> | 𒃻𒂠<span style="color:grey">𒉡</span>𒂠       | /šummuttum/, ‘tethering rope’                           |
 | [[VE 100]]    | nig<sub>2</sub>-gig                              | 𒃻𒍼           | /niḳītum/, ‘(ritual) purity, sacredness’                |
 | [[VE 149]]    | u<sub>3</sub>-nu-gar                             | 𒅇𒉡𒃻         | 'fraud'                                                 |
 | [[VE 186a-b]] | inim-di                                          | 𒅗𒁲           | 'instruction, order'                                    |
