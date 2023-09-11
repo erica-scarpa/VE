@@ -1,6 +1,6 @@
 # MEE 15 9 = TM.75.G.5646
 
-This fragment of an acrographic composition includes several entries from the following sections:
+This fragment of a monolingual local composition includes several entries from the following sections:
 * [[Section KA]]
 * [[Section SAG]]
 * [[Section ŠE]]

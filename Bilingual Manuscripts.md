@@ -5,7 +5,7 @@
 ![Reconstruction of the VE manuscript according to Archi.](attachments/manuscripts-archi.svg)
 
 * Manuscript A (only partially identified in MEE 4; corresponds to Bonechi's EBL<sub>2</sub> e EBL<sub>3b</sub>), includes one large tablet and a smaller one:
-  * [[Manuscript A-1]] (Pettinato A1-7, G, H, I; Bonechi EBL<sub>2</sub>), includes 1090 entries, from the incipit to VE 1089. The manuscript was published on the DCCLT as P241570.
+  * [[Manuscript A-1]] (Pettinato A1-7, G, H, I; Bonechi EBL<sub>2</sub>), includes 1090 entries, from the incipit to VE 1089. The manuscript was published on the DCCLT as P241570. A picture of the joined fragments was published in [[Matthiae et al., Ebla origini (1995)]], cat. no. 154, pp.351 and 365.
   * [[Manuscript A-2]] (Pettinato AZ+BG; Bonechi EBL<sub>3b</sub>) is a smaller tablets and includes entries from 1090 to the end.
     A join with 75.11317 = MEE 4, 71 = source BG and with fragment 75.3757 = A III 683 was suggested by Bonechi 2016, 'Putative Source' (2016).
 * [[Manuscript B]] (identificato solo in parte in in MEE 4, Pettinato B9-11, M, N, R, S, T; Bonechi EBL4) comprende tutte le voci elencate in EBK-A.

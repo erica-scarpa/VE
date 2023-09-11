@@ -1,8 +1,8 @@
-# Acrographic lists
+# Monolingual Local Lists
 
-## Acrographic manuscript A ([[EBK-A]])
+## Monolingual Local List: Manuscript A ([[EBK-A]])
 
-The joined [[EBK-A]] (acrographic list EBK-A) includes 1170 words (Archi, 'Publication of the Archives' [2020], 34). However, the most comprehensive acrographic list known is EBK-C, which includes ca. 1500 words (Archi, 'Transmission of Mesopotamian Texts' [1992], 18).
+The joined [[EBK-A]] (monolingual local list EBK-A) includes 1170 words (Archi, 'Publication of the Archives' [2020], 34). However, the most comprehensive monolingual local list known is EBK-C, which includes ca. 1500 words (Archi, 'Transmission of Mesopotamian Texts' [1992], 18).
 For a recent overview of the acrigraphic compositions, see [[Bonechi, 'Overview of the Ebla Sumerian Lexical Lists' (2022)]].
 
 |            | **Edition**                | **Inv. no.**       |
@@ -19,7 +19,7 @@ For a recent overview of the acrigraphic compositions, see [[Bonechi, 'Overview 
 |            | Unpublished                | chip from bag LVII |
 |            | Unpublished                | chip from bag LXX  |
 
-## Acrographic manuscript B ([[EBK-B]])
+## Monolingual Local List: Manuscript B ([[EBK-B]])
 
 | Abbreviation | Edition   | Inv. no.      |
 | ------------ | --------- | ------------- |
@@ -71,7 +71,7 @@ For a recent overview of the acrigraphic compositions, see [[Bonechi, 'Overview 
 | EBK.E6       | MEE 15 37 | TM.75.G.5287 |
 | [[EBK-E7]]   | MEE 15 38 | TM.75.G.3130 |
 
-## Irregular acrographic texts
+## Irregular Monolingual Local Texts
 
 | Abbreviation | Edition    | Inv. no.      | Other                 |
 | ------------ | ---------- | ------------- | --------------------- |
@@ -85,7 +85,7 @@ For a recent overview of the acrigraphic compositions, see [[Bonechi, 'Overview 
 | EBK.F8       | MEE 15 46 | TM.75.G.3430  |                       |
 | EBK.F9       | MEE 15 47 | TM.75.G.4296  |                       |
 
-## Non-acrographic texts
+## Other Monolingual Local texts
 
 | Abbreviation | Edition    | Inv. no.                  |
 | ------------ | ---------- | ------------------------- |
@@ -114,7 +114,7 @@ For a recent overview of the acrigraphic compositions, see [[Bonechi, 'Overview 
 | EBK.I2       | MEE 15 59 | TM.75.G.3176a |
 | EBK.I3       | MEE 15 60 | TM.75.G.3438  |
 
-## Fragments of acrographic list, NI section
+## Fragments of Monolingual Local Lists, NI Section
 
 | Abbreviation | Edition   | Inv. no.      |
 | ------------ | --------- | ------------- |
@@ -128,7 +128,7 @@ For a recent overview of the acrigraphic compositions, see [[Bonechi, 'Overview 
 | EBK.J8       | MEE 15 68 | TM.75.G.20276 |
 | EBK.J9       | MEE 15 69 | TM.75.G.4559  |
 
-## Fragments of acrographic list,GIŠ section
+## Fragments of Monolingual Local Lists, GIŠ section
 
 | Abbreviation | Edition    | Inv. no.      |
 | ------------ | ---------- | ------------- |
@@ -138,7 +138,7 @@ For a recent overview of the acrigraphic compositions, see [[Bonechi, 'Overview 
 | EBK.K4       | MEE 15 73 | TM.75.G.20307 |
 | EBK.K5       | MEE 15 74 | TM.75.G.20124 |
 
-## Fragments of acrographic list
+## Fragments of Monolingual Local List
 
 Fragment L4 has been recognized as part of the ED Fish list.
 

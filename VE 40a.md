@@ -1,4 +1,4 @@
-# VE 40a: 𒃻𒂠<span style="color:#dd5f6d">𒉡</span>𒂠
+# VE 40a: 𒃻𒂠𒉡𒂠
 
 **Section**: [[Section NINDA]]
 
@@ -10,6 +10,8 @@
 | ------------------- | ------------------ | -------------------------------------------------------------- |
 | [[A1]] obv.II:2-3     | [[Manuscript A-1]] | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> / *su-mu-tum* ✽ |
 | [[B8]] obv.I':2'-3' | [[Manuscript B]]   | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> / *su-mu-tum* |
+
+
 
 ## Monolingual occurrences 
 

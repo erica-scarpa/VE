@@ -1,4 +1,4 @@
-# VE 2
+# VE 2 𒃻𒁺
 
 **Section**: [[Section NINDA]]
 
