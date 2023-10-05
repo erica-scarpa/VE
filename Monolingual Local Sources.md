@@ -87,18 +87,18 @@ For a recent overview of the acrigraphic compositions, see [[Bonechi, 'Overview 
 
 ## Other Monolingual Local texts
 
-| Abbreviation | Edition    | Inv. no.                  |
-| ------------ | ---------- | ------------------------- |
+| Abbreviation | Edition   | Inv. no.                  |
+| ------------ | --------- | ------------------------- |
 | EBK.G1       | MEE 15 48 | TM.75.G.5311              |
 | EBK.G2       | MEE 15 49 | TM.75.G.5327              |
 | EBK.G3       | MEE 15 50 | TM.75.G.3120              |
 | EBK.G4       | MEE 15 51 | TM.75.G.4314+TM.75.G.4315 |
-| [[EBK-G5]]       | MEE 15 52 | TM.75.G.5330              |
-| [[EBK-G6]]       | MEE 15 53 | TM.75.G.5313              |
-| EBK.G7       | MEE 15 54 | TM.75.G.5280              |
+| [[EBK-G5]]   | MEE 15 52 | TM.75.G.5330              |
+| [[EBK-G6]]   | MEE 15 53 | TM.75.G.5313              |
+| [[EBK-G7]]   | MEE 15 54 | TM.75.G.5280              |
 | EBK.G8       | MEE 15 55 | TM.75.G.5323              |
 | EBK.G9       | MEE 15 56 | TM.75.G.5262              |
-| EBK.L4       | MEE 15 78 | TM.75.G.20284 | Fish source E~3a~        |
+| EBK.L4       | MEE 15 78 | TM.75.G.20284             | Fish source E~3a~        
 
 ## Excercise
 

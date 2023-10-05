@@ -47,7 +47,7 @@
 * [[Section SIKI]]
 * [[Section KASKAL]]
 * [[Section MAḪ]]
-* [[Section GIR<sub>7</sub>]]
+* [[Section GIR₇]]
 * [[Section Varia]]
 * [[Section KUŠ]]
 * [[Section Rhomboidal signs]]
