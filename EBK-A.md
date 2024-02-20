@@ -4,38 +4,44 @@ The main fragment of this tablet, TM.75.G.2422, was initially published by Petti
 
 See also the page on the [monolingual local lists](https://erica-scarpa.github.io/VE/Monolingual.html).
 
-|          | **Edition**               | **Inv. no.**         | **Other** |
-| -------- | ------------------------- | -------------------- | --------- |
+|           | **Edition**               | **Inv. no.**         | **Other** |
+| --------- | ------------------------- | -------------------- | --------- |
 | [[EBK-A]] | *MEE* 4, 115 = *M* 15, 1+ | TM.75.G.2422         | EBK-A     |
-|          | *MEE* 15, 4               | TM.75.G.3175         |           |
-|          | *MEE* 15, 5               | TM.75.G.3400         |           |
-|          | *MEE* 15, 2               | TM.75.G.4535         |           |
-|          | *MEE* 15, 3               | TM.75.G.4548         |           |
-|          |                           | TM.75.G.11302        |           |
-|          |                           | TM.75.G.18173        |           |
-|          |                           | TM.75.G.18244        |           |
-|          |                           | TM.75.G.20679        |           |
-|          |                           | chip from bag XXXIII |           |
-|          |                           | chip from bag LVII   |           |
-|          |                           | chip from bag LXX    |           |
+|           | *MEE* 15, 4               | TM.75.G.3175         |           |
+|           | *MEE* 15, 5               | TM.75.G.3400         |           |
+|           | *MEE* 15, 2               | TM.75.G.4535         |           |
+|           | *MEE* 15, 3               | TM.75.G.4548         |           |
+|           |                           | TM.75.G.11302        |           |
+|           |                           | TM.75.G.18173        |           |
+|           |                           | TM.75.G.18244        |           |
+|           |                           | TM.75.G.20679        |           |
+|           |                           | chip from bag XXXIII |           |
+|           |                           | chip from bag LVII   |           |
+|           |                           | chip from bag LXX    |           |
 
-|             |               |                                                  |
-| ----------- | ------------- | ------------------------------------------------ |
-| obv.I:1     | [[VE 1]]      | eš<sub>2</sub>-bar-kin<sub>5</sub>               |
-| obv.I:2     | [[VE 2]]      | nig<sub>2</sub>-tum<sub>2</sub>                  |
-| obv.II:6    | [[VE 40a]]    | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> |
-| obv.III:28  | [[VE 100]]    | nig<sub>2</sub>-gig                              |
-| obv.V:3     | [[VE 149]]    | u<sub>3</sub>-nu-gar                             |
-| obv.VI:3    | [[VE 186a-b]] | inim-di                                          |
-| obv.VI:7    | [[VE 190]]    | KA.MA                                            |
-| obv.VII:26  | [[VE 254]]    | sag-sum                                          |
-| obv.VIII:13 | [[VE 291]]    | <sup>u₂</sup>gudu<sub>4</sub>                    |
-| obv.X:37    | [[VE 409a]]   | <sup>giš</sup>DILMUN                             |
-| obv.XIII:24 | [[VE 530]]    | šu-šilig                                         |
-| obv.XIII:38 | [[VE 545]]    | A<sub>2</sub>.MUŠEN                              |
-| rev.VII:31  | [[VE 857]]    | gid<sub>2</sub><sup>tug₂</sup>                   |
-| rev.VIII:8  | [[VE 868]]    | [gin<sub>3</sub><sup>za</sup>]                   |
-| rev.VIII:39 | [[VE 901]]    | na-⸢de<sub>5</sub>⸣                            |
+|             |               |                                                  |      |
+| ----------- | ------------- | ------------------------------------------------ | ---- |
+| obv.I:1     | [[VE 1]]      | eš<sub>2</sub>-bar-kin<sub>5</sub>               | 𒂠𒁇𒌺  |
+| obv.I:2     | [[VE 2]]      | nig<sub>2</sub>-tum<sub>2</sub>                  | 𒃻𒌈   |
+| obv.II:6    | [[VE 40a]]    | nig<sub>2</sub>-eš<sub>2</sub>-nu-eš<sub>2</sub> | 𒃻𒂠𒉡𒂠 |
+| obv.III:28  | [[VE 100]]    | nig<sub>2</sub>-gig                              | 𒃻𒍼   |
+| obv.V:3     | [[VE 149]]    | u<sub>3</sub>-nu-gar                             | 𒅇𒉡𒃻  |
+| obv.VI:3    | [[VE 186a-b]] | inim-di                                          | 𒅗𒁲   |
+| obv.VI:7    | [[VE 190]]    | KA.MA                                            | 𒅗𒈠   |
+| obv.VII:26  | [[VE 254]]    | sag-sum                                          | 𒊕𒋧   |
+| obv.VIII:13 | [[VE 291]]    | <sup>u₂</sup>gudu<sub>4</sub>                    | 𒌑𒄴𒈨  |
+| obv.X:37    | [[VE 409a]]   | <sup>giš</sup>DILMUN                             | 𒄑𒉌𒌇  |
+| obv.XI:28   | [[VE 448]]    | GIŠ.DUG.DU                                       | 𒄑𒂁𒁺  |
+| obv.XI:29   | [[VE 449]]    | GIŠ.DU[G.GID<sub>2</sub>.DU]                     | 𒄑𒂁𒁍𒁺 |
+| obv.XIII:24 | [[VE 530]]    | šu-šilig                                         | 𒋗𒍂   |
+| obv.XIII:38 | [[VE 545]]    | A<sub>2</sub>.MUŠEN                              | 𒀉𒄷   |
+| rev.II:8    | [[VE 617]]    | A.MU                                             | 𒀀𒈬   |
+| rev.VII:31  | [[VE 857]]    | gid<sub>2</sub><sup>tug₂</sup>                   | 𒁍𒌆   |
+| rev.VIII:8  | [[VE 868]]    | [gin<sub>3</sub><sup>za</sup>]                   | 𒆳𒍝   |
+| rev.VIII:16 | [[VE 876]]    | ḪUB₂                                             | 𒄸    |
+| rev.VIII:39 | [[VE 901]]    | na-⸢de<sub>5</sub>⸣                              | 𒈾𒊑   |
+| rev.XI:30   | [[VE 1044]]   | AMA.MU                                           | 𒂼𒈬   |
+| rev.XIII:32 | [[VE 1085]]   | dumu-nita                                        | 𒌉𒍑   |
 
 
 
@@ -51,9 +57,15 @@ See also the page on the [monolingual local lists](https://erica-scarpa.github.i
 [VE 254]: <VE 254> "VE 254"
 [VE 291]: <VE 291> "VE 291"
 [VE 409a]: <VE 409a> "VE 409a"
+[VE 448]: <VE 448> "VE 448 𒄑𒂁𒁺"
+[VE 449]: <VE 449> "VE 449 𒄑𒂁𒁍𒁺"
 [VE 530]: <VE 530> "VE 530"
 [VE 545]: <VE 545> "VE 545"
+[VE 617]: <VE 617> "VE 617 𒀀𒈬"
 [VE 857]: <VE 857> "VE 857"
 [VE 868]: <VE 868> "VE 868"
+[VE 876]: <VE 876> "VE 876"
 [VE 901]: <VE 901> "VE 901"
+[VE 1044]: <VE 1044> "VE 1044 𒂼𒈬"
+[VE 1085]: <VE 1085> "VE 1085 𒌉𒍑"
 [//end]: # "Autogenerated link references"
