@@ -150,6 +150,7 @@
 [V]: V "MEE 4 32 = TM.75.G.1448"
 [X]: X "MEE 4, 34 = TM.75.G.11308"
 [AI]: AI "# MEE 4, 45 = TM.75.G.5314"
+[Manuscript D5]: <Manuscript D5> "Manuscript D5"
 [AZ]: AZ "MEE 4, 63 + MEE 4, 64 = TM.75.G.10023 + TM.75.G.11301"
 [Manuscript A-2]: <Manuscript A-2> "Manuscript A-2"
 [ARET III 683]: <ARET III 683> "ARET III 683 = TM.75.G.3757"
