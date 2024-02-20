@@ -3,11 +3,12 @@
 A bilingual list of animals. For the joins, see Bonechi, 'Due frammenti' (2014), 149. On the join with unpublished fragment TM.75.G.12686, see Archi, 'The 'Sign List'' (1987), 100n87, also quoted in Fronzaroli, 'Les combats de Hadda' (1997), 286.
 No complete edition or picture of the tablet/fragment is currently available. Entries from this composition are quoted according to the available editions of its fragments, as showned below.
 A shorter version of this composition is MEE 4 116 = TM.75.G.2395, the [[Bilingual list of animals 2]], also known as Akkadian list of animals.
+The largest fragment TM.75.G.10018 has been published by Pettinato in *MEE* 4 as *MEE* 4, 96 = Excerpt v.
 
 ## Excerpt v = MEE 4, 96 = TM.75.G.10018
 
-|              |            |                                          |
-| ------------ | ---------- | ---------------------------------------- |
+|              |            |                                         |
+| ------------ | ---------- | --------------------------------------- |
 | obv.VIII:4-5 | [[VE 877]] | ḪUB₂.ḪUB₂ / *gu*₂-*du-gu*₂-*du-wu-um* ✽ |
 
 
