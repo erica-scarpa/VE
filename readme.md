@@ -1,37 +1,39 @@
 # 1. Introduction
 
-The *Vocabolario di Ebla* (VE) is an umbrella term used to identify a group of lexical compositions described as bilingual lists or glossaries. These documents, compiled by the scribes of the ancient city of [Ebla](https://pleiades.stoa.org/places/869702586) around 2370 BCE, include hundreds of Sumerian words and expressions, with some of these also featuring translations or paraphrases in Eblaite. Scholars have identified at least four different manuscripts or "versions" of this glossary, and they have been engaged in reconstructing them from dozens of fragments over the past fifty years. Several dozens of shorter excerpts (called *estratti*) have also been discovered
+The *Vocabolario di Ebla* (VE) is a collective term encompassing several bilingual lexicographic compositions discovered in the ancient city of [Ebla](https://pleiades.stoa.org/places/869702586). Dating back to approximately 2370 BCE, these documents compiled by Eblaite scribes list hundreds of Sumerian words and expressions. Some entries also include translations or paraphrases in the Eblaite language. Scholars have identified at least four distinct manuscripts or "versions" of this list, which they have been reconstructing from dozens of fragments over the past five decades. Additionally, several dozen shorter excerpts (known as *estratti*) have been unearthed.
 
-The *Vocabolario* serves as an indispensable tool for linguists, historians, and archaeologists who are dedicated to studying the Eblaite language and the ancient city itself. It plays a crucial role in enabling researchers to decode the meanings of Eblaite words, comprehend the grammatical structure of the language, and acquire insights into the vocabulary used by the accountants who worked in the Palace.
+The *Vocabolario* serves as an invaluable resource for linguists, historians, and archaeologists studying the Eblaite language and the ancient city. It plays a critical role in helping researchers decipher the meanings of Eblaite words, understand the language's grammatical structure, and gain insights into the vocabulary used by palace accountants.
 
 ## 1.1 Structure of the Composition
 
-The various manuscripts and excerpts collectively exhibit a consistent structure, albeit with some variations. The Sumerian words are arranged following an order based on graphic, phonic, or semantic proximity (see *infra*) and  most bilingual lists are divided into sections that gather words commencing with the same logogram. For instance, in [[Manuscript A-1]], the list commences with [[Section NINDA]] (𒃻), followed by [[Section KA]] (𒅗), [[Section SAG]] (𒊕), and so forth. Each of these sections encompasses numerous words that start with the corresponding sign.
+The various manuscripts and excerpts exhibit a generally consistent structure, with some variations. Sumerian words are typically arranged based on graphic, phonetic, or semantic similarity (see below). Most bilingual lists are divided into sections containing words that begin with the same logogram. For example, [[Manuscript A-1]] starts with [[Section NINDA]] (𒃻), followed by [[Section KA]] (𒅗), [[Section SAG]] (𒊕), and so on. Each section includes numerous words starting with the corresponding sign.
 
-Certain words are accompanied by a [gloss](https://www.merriam-webster.com/dictionary/gloss#dictionary-entry-3) in Eblaite, the locally spoken Semitic language. These glosses occasionally serve as direct translations, although paraphrases also appear. In some bilingual compositions, a *glossenkeil* (a small 𒀹, here marked as ✽) is introduced. This sign conventionally denotes Semitic translations, allowing for a clear differentiation from Sumerian entries. A glossed entry looks as follows:
+Certain words are accompanied by Eblaite [glosses](https://www.merriam-webster.com/dictionary/gloss#dictionary-entry-3), the local Semitic language. These glosses can be direct translations or paraphrases. Some bilingual compositions use a *Glossenkeil* (a small 𒀹, marked here as ✽) to distinguish Semitic translations from Sumerian entries. A glossed entry looks like this:
 
-|          |                               |        |
-| -------- | ----------------------------- | ------ |
-| rev.VI:4 | gi<sub>6</sub>-sa<sub>2</sub> | 𒈪𒁲   |
+|          |                               |     |
+| -------- | ----------------------------- | --- |
+| rev.VI:4 | gi<sub>6</sub>-sa<sub>2</sub> | 𒈪𒁲  |
 | rev.VI:5 | *ba-na me-*                   | 𒁀𒈾𒈨 |
-|          | *-si-im*                      | 𒋛𒅎   |
+|          | *-si-im*                      | 𒋛𒅎  |
 
 This entry appears in [[Manuscript D5]], sixth column, fouth and fifth cases. The Sumerian term gi<sub>6</sub>-sa<sub>2</sub> is equated with the expression /bayna(y) mīšim/, "in the middle of the night".
 
 ## 1.2 The Monolingual Manuscripts of Local Tradition
 
-according to an acrographic arrangement. The term "acrographic" (from the Greek words ἄκρος, meaning "uppermost," and γράφειν, meaning "to write") was coined by Giovanni Pettinato. It is named after the acrophonic principle, which involves naming letters in an alphabetic writing system so that a letter's name starts with the letter itself. Similarly, acrographic lists are organized based on the shape of the signs, a system that can be loosely likened to our alphabetic order. Wagensonner recently revised the label acrographic, deeming it unprecise. The author rightly observes that acrography is not the only ordering principle adopted, as phonetic and semantic principles of arrangement within individual sections.
-
+The term "acrographic" refers to the organization of these lists based on the first sign of each entry. It derives from the Greek words ἄκρος (meaning "uppermost") and γράφειν (meaning "to write"). This system resembles alphabetic order, where letters are named using sounds that begin with the letter itself. However, scholars like Wagensonner have recently argued that the term "acrographic" is overly simplistic. They point out that while the first sign plays a role, phonetic and semantic relationships also influence the arrangement within individual sections.
+ 
 ## 1.3 Variants and Composite Text
 
-As previously mentioned, multiple manuscripts and abridged versions of this lexical composition have been discovered. The list of Sumerian terms remains relatively consistent across most of these texts, as most are based on the monolingual local manuscripts. These are monolingual lists of Sumerian words which served as an outline for the bilingual compositions. However, the presence of glosses for a given term can vary between different bilingual manuscripts. Furthermore, even when present in multiple manuscripts, the glosses themselves might exhibit significant discrepancies. For instance, consider again the term gi<sub>6</sub>-sa<sub>2</sub>. In [[Manuscript A-2]] and [[Manuscript B]], the respective glosses differ from the one found in [[Manuscript D]]. Specifically, [[Manuscript A-2]] and [[Manuscript B]] translate it as /šiqrum/, "dawn" (spelled *si-gi-lu-um* and *si-gi-lum* respectively), while [[Manuscript C]] presents *u*<sub>3</sub>-*ru* *mu-si-im*, signifying /[urru](https://www.ebl.lmu.de/dictionary/urru%20I) [mūšim](https://www.ebl.lmu.de/dictionary/m%C5%AB%C5%A1u%20I)/ ("light of the night").
+Multiple manuscripts and abridged versions of the Ebla Vocabulary have been unearthed. These texts share a relatively consistent list of Sumerian terms, primarily derived from local monolingual lists. However, the inclusion and content of glosses vary significantly across different manuscripts. The same Sumerian term might have different glosses, or no gloss at all, in various versions.
 
-A composite text encompasses all the variations of a Sumerian term and available glosses. The composite text for the *Vocabolario di Ebla* currently available was published by Giovanni Pettinato in 1982 (*MEE* 4). In his edition, all Sumerian terms and their corresponding glosses, if provided, have been systematically numbered and consolidated into a single comprehensive synopsis. The (updated) entry for gi<sub>6</sub>-sa<sub>2</sub> is presented as follows:
+For example, the term gi₆-sa₂ appears in several manuscripts with diverging glosses. In [[Manuscript A-2]] and [[Manuscript B]], it translates to /šiqrum/ ("dawn", spelled *si-gi-lu-um* and *si-gi-lum* respectively), while [[Manuscript C]] offers *u*<sub>3</sub>-*ru* *mu-si-im*, signifying /[urru](https://www.ebl.lmu.de/dictionary/urru%20I) [mūšim](https://www.ebl.lmu.de/dictionary/m%C5%AB%C5%A1u%20I)/ ("light of the night").
 
-|        |     |                                                                 |                  |
-| ------ | --- | --------------------------------------------------------------- | ---------------- |
-| VE 817 | A-1 | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lu-um* ✽                 | 𒈪𒁲 / 𒋛𒄀𒇻𒌝 𒀹   |
-|        | B   | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lum*                     | 𒈪𒁲 / 𒋛𒄀𒈝      |
+A composite text, published by Giovanni Pettinato in 1982 (*MEE* 4), compiles all known variations of each Sumerian term and its associated glosses. This comprehensive resource systematically numbers and consolidates all entries, providing a clear picture of the lexical information available in the Ebla Vocabulary:
+
+|        |     |                                                                 |             |
+| ------ | --- | --------------------------------------------------------------- | ----------- |
+| VE 817 | A-1 | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lu-um* ✽                 | 𒈪𒁲 / 𒋛𒄀𒇻𒌝 𒀹 |
+|        | B   | gi<sub>6</sub>-sa<sub>2</sub> / *si-gi-lum*                     | 𒈪𒁲 / 𒋛𒄀𒈝    |
 |        | C   | gi<sub>6</sub>-sa<sub>2</sub> / *u*<sub>3</sub>-*ru* *mu-si-im* | 𒈪𒁲 / 𒅇𒂗𒈬𒋛𒅎  |
 |        | D   | gi<sub>6</sub>-sa<sub>2</sub> / *ba-na me-si-im*                | 𒈪𒁲 / 𒁀𒈾 𒈨𒋛𒅎 |
 
@@ -44,8 +46,6 @@ Beyond technical considerations, this website serves as a comprehensive reposito
 The navigation menu is straightforward and self-explanatory. To begin your exploration of the *Vocabolario*, you can choose to browse through the [manuscripts](https://erica-scarpa.github.io/VE/Bilingual%20Manuscripts.html), [sources](https://erica-scarpa.github.io/VE/Bilingual.html), or the [glosses](https://erica-scarpa.github.io/VE/Synopsis.html). For a visual representation of the included VE entries, you can refer to the visualization accessible [here](https://erica-scarpa.github.io/VE/Chart.html).
 
 As previously mentioned, since the bilingual compositions are primarily based on acrographic monolingual manuscripts, it's important to consider these [manuscripts](https://erica-scarpa.github.io/VE/Monolingual%20Local%20Manuscripts.html) along with their corresponding [sources](https://erica-scarpa.github.io/VE/Monolingual%20Local.html). Additionally, we also take into account other [monolingual Sumerian compositions](https://erica-scarpa.github.io/VE/Monolingual.html) of Mesopotamian origin, albeit to a lesser extent.
-
-Check the [Milestones](https://erica-scarpa.github.io/VE/Milestones.html) page for a comprehensive overview of the project's achievements and significant developments.
 
 [//begin]: # "Autogenerated link references for markdown compatibility"1[Manuscript A-1]: <Manuscript A-1> "Manuscript A-1"1[Section NINDA]: <Section NINDA> "NINDA"1[Section KA]: <Section KA> "KA"1[Section SAG]: <Section SAG> "Section SAG"1[Manuscript A-2]: <Manuscript A-2> "Manuscript A-2"1[Manuscript B]: <Manuscript B> "Manuscript B"1[//end]: # "Autogenerated link references"
 
