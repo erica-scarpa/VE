@@ -64,7 +64,7 @@ See also the page on the [monolingual local lists](https://erica-scarpa.github.i
 [VE 617]: <VE 617> "VE 617 𒀀𒈬"
 [VE 857]: <VE 857> "VE 857"
 [VE 868]: <VE 868> "VE 868"
-[VE 876]: <VE 876> "VE 876"
+[VE 876]: <VE 876> "VE 876 𒄸"
 [VE 901]: <VE 901> "VE 901"
 [VE 1044]: <VE 1044> "VE 1044 𒂼𒈬"
 [VE 1085]: <VE 1085> "VE 1085 𒌉𒍑"
