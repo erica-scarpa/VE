@@ -16,12 +16,13 @@
 | [[VE 409a]]   | <sup>giš</sup>DILMUN                             | 𒄑𒉌𒌇                                     | 'to weigh'                                              |
 | [[VE 418]]    | GEŠ.GI.A<sub>2</sub><sup>!</sup>.LA<sub>2</sub>  | 𒄑𒄀𒀉𒇲                                    | /ṯaḳālum/, ‘to weigh’                                   |
 | [[VE 448]]    | GIŠ.DUG.DU                                       | 𒄑𒂁𒁺                                     |                                                         |
-| [[VE 448]]    | GIŠ.DUG.GID<sub>2</sub>.DU                       | 𒄑𒂁𒁍𒁺                                    |                                                         |
+| [[VE 449]]    | GIŠ.DUG.GID<sub>2</sub>.DU                       | 𒄑𒂁𒁍𒁺                                    |                                                         |
 | [[VE 530]]    | šu-šilig                                         | 𒋗𒍂                                      | 'strenght'                                              |
 | [[VE 545]]    | A<sub>2</sub>.MUŠEN                              | 𒀉𒄷                                      | 'eagle' or 'feather'                                    |
 | [[VE 617]]    | A.MU                                             | 𒀀𒈬                                      | 'feather'                                               |
 | [[VE 671]]    | še-gibil                                         | 𒊺𒉋                                      | 'new barley'                                            |
 | [[VE 706]]    | agrig                                            | 𒅆𒁾                                      |                                                         |
+| [[VE 707]]    | agrig-mi₂                                        | 𒅆𒁾𒊩                                     |                                                         |
 | [[VE 799a-b]] | <sup>d</sup>EN.ZI, <sup>d</sup>EN.ZU             | 𒀭𒂗𒍣, 𒀭𒂗𒍪                                | /suyīn(u)/, name of the Mesopotamian moon-god Sîn/Suyin |
 | [[VE 857]]    | gid<sub>2</sub><sup>tug₂</sup>                   | 𒁍𒌆                                      | '(a kind of garment)'                                   |
 | [[VE 868]]    | gin<sub>3</sub><sup>za</sup>                     | 𒆳𒍝                                      | 'lapis lazuli'                                          |
@@ -52,11 +53,13 @@
 [VE 409a]: <VE 409a> "VE 409a"
 [VE 418]: <VE 418> "VE 418"
 [VE 448]: <VE 448> "VE 448 𒄑𒂁𒁺"
+[VE 449]: <VE 449> "VE 449 𒄑𒂁𒁍𒁺"
 [VE 530]: <VE 530> "VE 530"
 [VE 545]: <VE 545> "VE 545"
 [VE 617]: <VE 617> "VE 617 𒀀𒈬"
-[VE 671]: <VE 671> "VE 671"
+[VE 671]: <VE 671> "VE 671 𒊺𒉋"
 [VE 706]: <VE 706> "VE 706"
+[VE 707]: <VE 707> "VE 707"
 [VE 799a-b]: <VE 799a-b> "VE 799a-b"
 [VE 857]: <VE 857> "VE 857"
 [VE 868]: <VE 868> "VE 868"

@@ -4,6 +4,12 @@
 
 ## [[Word list A]]
 
+## Early Dynastic Practical Vocabulary A
+
+* [[EDPV-A EA]]
+* [[EDPV-A EB]], includes a Semitic versions of lines 1-98.
+* [[EDPV-A EC]]
+
 ## Lists of animals
 
 MEE 15 45 = TM.75.G.3044
