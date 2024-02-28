@@ -198,3 +198,11 @@ input.filter-checkbox {
 p {
     margin-top: 20px;
 }
+
+        #my_dataviz {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
