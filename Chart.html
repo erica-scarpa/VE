@@ -133,7 +133,8 @@
                                             <div class="col-md-12">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Manuscript A-2 / EBL<sub>3b</sub></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2
+                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Filter according
+                                                    to sources of Manuscript A-2
                                                     </h6>
                                                     <div id="manuscripta2"></div>
                                                 </div>
@@ -148,7 +149,8 @@
                                             <div class="col-md-12">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Manuscript B / EBL<sub>4</sub></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2
+                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Filter according
+                                                    to sources of Manuscript B
                                                     </h6>
                                                     <div id="manuscriptb"></div>
                                                 </div>
@@ -163,7 +165,8 @@
                                             <div class="col-md-12">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Manuscript C / EBL<sub>3a</sub></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2
+                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Filter according
+                                                    to sources of Manuscript C
                                                     </h6>
                                                     <div id="manuscriptc"></div>
                                                 </div>
@@ -178,7 +181,8 @@
                                             <div class="col-md-12">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Manuscript D / EBL<sub>1</sub></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2
+                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Filter according
+                                                    to sources of Manuscript D
                                                     </h6>
                                                     <div id="manuscriptd"></div>
                                                 </div>
@@ -193,7 +197,8 @@
                                             <div class="col-md-12">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Bilingual excerpts</h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle 2
+                                                    <h6 class="card-subtitle mb-2 text-body-secondary">Filter according
+                                                    to bilingual excerpts
                                                     </h6>
                                                     <div id="excerpts"></div>
                                                 </div>
@@ -201,7 +206,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Repeat the above two blocks for the other two cards -->
                             </div>
                         </div>
                     </div>
@@ -214,12 +218,12 @@
                         <!-- Add more checkboxes for other source values as needed -->
                     </div>
 
-                    
+                   
                 </div>
-
+<div id="my_dataviz"></div>
             </div>
         </div>
-        <div id="my_dataviz"></div>
+        
     </main>
 
     <!-- Footer -->
@@ -282,7 +286,6 @@
                         Let me know: <a href="mailto:">erica.scarpa@gmail.com</a><br>
                         <h3> 
                                         <a href="https://github.com/erica-scarpa" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
-                                        <a href="https://mastodon.social/@erica_scarpa" target="_blank"><i class="fa-brands fa-mastodon"></i></a>
                                         <a href="https://erica-scarpa.github.io" target="_blank"><i class="fa-solid fa-house fa-xs"></i></a>
                         </h3>
                         </a>
@@ -300,16 +303,19 @@
             const margin = { top: 80, right: 25, bottom: 30, left: 70 },
                 width = window.innerWidth - margin.left - margin.right,
                 height = 750 - margin.top - margin.bottom;
+
             // Remove existing SVG
             d3.select("#my_dataviz svg").remove();
 
-            // Append the svg object to the body of the page
+            // Append the svg object to the my_dataviz div
             const svg = d3.select("#my_dataviz")
+                .html("") // Clear any existing content
                 .append("svg")
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
                 .append("g")
                 .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
 
             // Read the data
             d3.csv("https://raw.githubusercontent.com/erica-scarpa/VE/master/assets/dataset.csv").then(function (data) {
