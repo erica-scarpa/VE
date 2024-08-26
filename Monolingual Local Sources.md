@@ -7,11 +7,11 @@ For a recent overview of the acrigraphic compositions, see [[Bonechi, 'Overview 
 
 |            | **Edition**                | **Inv. no.**       |
 | ---------- | -------------------------- | ------------------ |
-| [[EBK-A1]] | *MEE* 4, 115 = *MEE* 15, 1 | TM.75.G.2422       |
-| [[EBK-A4]] | *MEE* 15, 4                | TM.75.G.3175       |
-| [[EBK-A5]] | *MEE* 15, 5                | TM.75.G.3400       |
-| [[EBK-A2]] | *MEE* 15, 2                | TM.75.G.4535       |
-| [[EBK-A3]] | *MEE* 15, 3                | TM.75.G.4548       |
+| [[EBK-A]]  | *MEE* 4, 115 = *MEE* 15, 1 | TM.75.G.2422       |
+| [[EBK-A1]] | *MEE* 15, 2                | TM.75.G.4535       |
+| [[EBK-A2]] | *MEE* 15, 3                | TM.75.G.4548       |
+| [[EBK-A3]] | *MEE* 15, 4                | TM.75.G.3175       |
+| [[EBK-A4]] | *MEE* 15, 5                | TM.75.G.3400       |
 |            | Unpublished                | TM.75.G.11302      |
 |            | Unpublished                | TM.75.G.18173      |
 |            | Unpublished                | TM.75.G.18244      |

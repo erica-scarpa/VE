@@ -1,8 +1,16 @@
 # Monoligual lexical compositions
 
+## [[ED Animals A]]
+
+MEE 3, 12-17
+• MEE 3, 62
+
 ## [[Names and Professions list]]
 
 ## [[Word list A]]
+
+## [[Word list C]] "Tribute"
+A list of commodities, including animals, dairy, and other foodstuffs. Published as MEE 3 47 = TM.75.G 1912. The composite is Q000031.
 
 ## Early Dynastic Practical Vocabulary A
 
